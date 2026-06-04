@@ -10,11 +10,22 @@ Teknoloji sitesi/
 ├── category.html     → Kategori sayfası (?cat=telefon gibi)
 ├── article.html      → Haber detay sayfası (?id=1 gibi)
 ├── search.html       → Arama sonuçları
+├── hakkimizda.html   → Hakkımızda sayfası
+├── iletisim.html     → İletişim sayfası
+├── YAYINLAMA.md      → Siteyi internette yayınlama rehberi
+├── assets/favicon.svg→ Site ikonu / logo
 ├── css/style.css     → Tüm tasarım
 └── js/
     ├── data.js       → TÜM içerik burada (kategoriler + haberler)
     └── main.js       → Sayfaları çizen kod
 ```
+
+## Özellikler
+- 9 kategori, arama, "en çok okunanlar", öne çıkan/manşet sistemi
+- Açık/koyu tema (sistem temasını otomatik algılar, tercih hatırlanır)
+- Haberlerde beğeni, paylaşım (X/WhatsApp/kopyala) ve yorum alanı
+- Bülten kayıt formu, okuma ilerleme çubuğu, beliriş animasyonları
+- Tamamen statik — sunucu/derleme gerektirmez. Yayınlamak için bkz. `YAYINLAMA.md`
 
 ## Yeni Haber Nasıl Eklenir?
 
