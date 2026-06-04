@@ -492,6 +492,139 @@ const ARTICLES = [
       "Elektrikli spor otomobil segmenti, performansı çevre dostu teknolojiyle buluşturmak isteyen sürücüler için hızla büyüyor.",
       "Seri üretim detayları netleştikçe, fiyat ve teknik özelliklerin de açıklanması bekleniyor."
     ]
+  },
+  {
+    id: 27,
+    category: "tablet",
+    title: "Asus 10 Yıl Sonra Tablet Pazarına Döndü: Asus Pad Tanıtıldı",
+    summary: "12.2 inç 2.8K OLED ekran, Dimensity 8300 işlemci ve 9000 mAh batarya ile Asus, Samsung'a meydan okuyor.",
+    image: "https://images.unsplash.com/photo-1561154464-82e9adf32764?w=900&q=80",
+    author: "Editör",
+    date: "2026-05-29",
+    readTime: 4,
+    views: 1920,
+    featured: false,
+    tags: ["asus", "tablet", "oled"],
+    body: [
+      "Asus, yaklaşık on yıl aradan sonra tablet pazarına geri döndü. Computex 2026'da tanıtılan Asus Pad, premium segmente göz kırpıyor.",
+      "12.2 inç 2.8K OLED ekran, içerik tüketimi ve çizim için canlı renkler sunuyor. MediaTek Dimensity 8300 işlemci ise dengeli bir performans vaat ediyor.",
+      "9000 mAh kapasiteli batarya, uzun kullanım süreleri için iddialı bir rakam. Asus bu cihazla doğrudan Samsung'un orta-üst segment tabletlerini hedefliyor.",
+      "Fiyatlandırma rekabetçi olursa, tablet pazarındaki seçenekler kullanıcılar lehine artacak gibi görünüyor."
+    ]
+  },
+  {
+    id: 28,
+    category: "bilgisayar",
+    title: "Microsoft Surface Pro 12 ve Surface Laptop 8 Geliyor",
+    summary: "Yeni nesil Surface cihazları Mayıs sonu–Haziran arasında raflarda. Snapdragon X2 gecikme söylentileri ne anlama geliyor?",
+    image: "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=900&q=80",
+    author: "Editör",
+    date: "2026-05-30",
+    readTime: 5,
+    views: 2410,
+    featured: false,
+    tags: ["microsoft", "surface", "windows"],
+    body: [
+      "Microsoft'un yeni nesil Surface cihazları yola çıkıyor. Surface Laptop 8 ve Surface Pro 12'nin ilk partisinin Mayıs sonu ile Haziran sonu arasında satışa çıkması bekleniyor.",
+      "Bu cihazlar, ARM tabanlı işlemcilerin sunduğu uzun pil ömrü ve sessiz çalışma avantajlarını Windows ekosistemine taşımayı sürdürüyor.",
+      "Ancak yeni nesil Snapdragon X2 yonga setiyle ilgili gecikme söylentileri, bazı modellerin lansman takvimini etkileyebilir.",
+      "2'si 1 arada form faktörünü sevenler için Surface Pro 12, hâlâ Windows tabletlerin referans noktası olmaya aday."
+    ]
+  },
+  {
+    id: 29,
+    category: "bilgisayar",
+    title: "Lenovo MWC 2026'da Yapay Zeka Dizüstülerini Tanıttı",
+    summary: "Yoga Pro 7a ve Legion 7a dahil yeni yapay zeka odaklı dizüstüler Haziran'da satışa çıkıyor.",
+    image: "https://images.unsplash.com/photo-1531492746076-161ca9bcad58?w=900&q=80",
+    author: "Editör",
+    date: "2026-05-24",
+    readTime: 5,
+    views: 2050,
+    featured: false,
+    tags: ["lenovo", "yapay zeka", "dizüstü"],
+    body: [
+      "Lenovo, MWC 2026'da üretkenlik ve yaratıcılığa odaklanan yeni nesil yapay zeka dizüstülerini ve konsept cihazlarını sergiledi.",
+      "Yoga Pro 7a ve Legion 7a gibi modeller Haziran 2026'da satışa çıkıyor. Legion serisi oyun performansına, Yoga serisi ise taşınabilir üretkenliğe odaklanıyor.",
+      "Cihazlardaki yapay zeka hızlandırıcıları, görüntü düzenlemeden gerçek zamanlı çeviriye kadar pek çok işi yerel olarak hızlandırıyor.",
+      "Fiyatların üst segmentte konumlanması, bu cihazları daha çok profesyonel kullanıcılara yönlendiriyor."
+    ]
+  },
+  {
+    id: 30,
+    category: "giyilebilir",
+    title: "Asus VivoWatch 6 Plus: Safir Cam, Titanyum Kasa ve EKG",
+    summary: "Uyku solunum hareketi, yürüyüş analizi ve uzun vadeli sağlık eğilimleri sunan yeni akıllı saat tanıtıldı.",
+    image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=900&q=80",
+    author: "Editör",
+    date: "2026-05-28",
+    readTime: 4,
+    views: 1780,
+    featured: false,
+    tags: ["asus", "akıllı saat", "sağlık"],
+    body: [
+      "Asus, Computex 2026'da sağlık takibine odaklanan VivoWatch 6 Plus akıllı saatini tanıttı. Cihaz, premium malzemeleri ileri sensörlerle birleştiriyor.",
+      "1.43 inç AMOLED ekran, safir-kristal cam ile korunuyor; kasa ise titanyum alaşımdan üretilmiş. EKG ölçümü de cihazın öne çıkan özellikleri arasında.",
+      "Saat; uyku sırasında solunum hareketi, yürüyüş (gait) analizi ve uzun vadeli sağlık eğilimleri gibi yeni metrikleri destekliyor.",
+      "Bu tür gelişmiş sensörler giderek yaygınlaşıyor; ancak unutmayın: bu ölçümler bir hekimin teşhisinin yerini tutmaz."
+    ]
+  },
+  {
+    id: 31,
+    category: "sosyal-medya",
+    title: "Meta Ücretli Abonelik Dönemine Geçiyor: Instagram, Facebook ve WhatsApp Plus",
+    summary: "Instagram Plus ve Facebook Plus aylık ~3.99 dolar, WhatsApp Plus 2.99 dolardan sunuluyor. Bu ne anlama geliyor?",
+    image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=900&q=80",
+    author: "Editör",
+    date: "2026-06-02",
+    readTime: 5,
+    views: 3340,
+    featured: true,
+    tags: ["meta", "abonelik", "sosyal medya"],
+    body: [
+      "Meta, Instagram, Facebook ve WhatsApp genelinde ücretli abonelik katmanlarını devreye aldı. Bu, platformların gelir modelinde önemli bir değişime işaret ediyor.",
+      "Instagram Plus ve Facebook Plus aylık yaklaşık 3.99 dolar, WhatsApp Plus ise 2.99 dolar olarak fiyatlandırıldı.",
+      "Abonelikler genellikle ek özellikler ve daha az reklam vaat ediyor. Ancak temel deneyimin ne kadarının ücretsiz kalacağı kullanıcıların merak ettiği asıl soru.",
+      "Sosyal medyanın 'ücretsiz' modelinden kademeli olarak uzaklaşması, sektör için dikkatle izlenmesi gereken bir eğilim."
+    ]
+  },
+  {
+    id: 32,
+    category: "sosyal-medya",
+    title: "WhatsApp'ta Telefon Numarası Devri Bitiyor: Kullanıcı Adları Geliyor",
+    summary: "WhatsApp, profillerde telefon numarasını tamamen gizleyen kullanıcı adı sistemine geçiyor. Gizlilik için büyük adım.",
+    image: "https://images.unsplash.com/photo-1611606063065-ee7946f0787a?w=900&q=80",
+    author: "Editör",
+    date: "2026-05-31",
+    readTime: 4,
+    views: 2890,
+    featured: false,
+    tags: ["whatsapp", "gizlilik", "kullanıcı adı"],
+    body: [
+      "WhatsApp, profillerde telefon numarasını tamamen gizleyen kullanıcı adı (username) sistemini kullanıma sunmaya başladı.",
+      "Bu değişiklik, platformu daha çok sosyal medya tarzı bir kimlik sistemine yaklaştırıyor. Artık numaranızı paylaşmadan iletişim kurmak mümkün olacak.",
+      "Gizlilik açısından önemli bir adım: telefon numaranızın tanımadığınız kişilere ifşa olma riski azalıyor.",
+      "Ayrıca AB'deki kullanıcılar için Meta AI ile durum güncellemelerinde ve sohbetlerde görsel üretme özelliği de devrede."
+    ]
+  },
+  {
+    id: 33,
+    category: "uygulama",
+    title: "TikTok'tan İki Yeni Özellik: AI Alive ile Fotoğraflar Hareketleniyor",
+    summary: "Statik görselleri videoya çeviren AI Alive ve keşfettiğin şarkıları müzik servisine kaydeden 'Add to Music' geldi.",
+    image: "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=900&q=80",
+    author: "Editör",
+    date: "2026-06-01",
+    readTime: 4,
+    views: 2560,
+    featured: false,
+    tags: ["tiktok", "yapay zeka", "uygulama"],
+    body: [
+      "TikTok, kullanıcı deneyimini zenginleştiren iki yeni özellik duyurdu. İlki, yapay zeka destekli 'AI Alive'.",
+      "AI Alive, TikTok Stories içinde statik fotoğrafları kısa videolara dönüştürüyor. Böylece tek bir kareden hareketli içerik üretmek mümkün hale geliyor.",
+      "İkinci yenilik 'Add to Music App'; uygulamada keşfettiğiniz şarkıları, tercih ettiğiniz müzik akış servisine doğrudan kaydetmenizi sağlıyor.",
+      "Reklam verenler de artık TikTok kullanıcılarına WhatsApp ve Messenger gibi diğer mesajlaşma uygulamaları üzerinden ulaşabilecek."
+    ]
   }
 ];
 
