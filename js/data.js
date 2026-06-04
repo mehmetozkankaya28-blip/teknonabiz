@@ -359,6 +359,139 @@ const ARTICLES = [
       "Modellerin hangi verilerle eğitildiği ve sanatçıların eserlerinin izinsiz kullanılıp kullanılmadığı tartışmanın merkezinde.",
       "Düzenleyiciler yeni kurallar üzerinde çalışıyor; bu alanda hem yaratıcılar hem de kullanıcılar için belirsizlik sürüyor."
     ]
+  },
+  {
+    id: 20,
+    category: "telefon",
+    title: "Haziran Android Güncellemesi Geldi: Dolandırıcı Arama Uyarısı ve Dijital Gardırop",
+    summary: "Google'ın Haziran Android paketi; sahte arama tespiti, Google Photos'ta dijital gardırop ve Android–iPhone arası kolay dosya paylaşımı getiriyor.",
+    image: "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=900&q=80",
+    author: "Editör",
+    date: "2026-06-03",
+    readTime: 5,
+    views: 3270,
+    featured: true,
+    tags: ["android", "güncelleme", "güvenlik"],
+    body: [
+      "Google, her ay yayınladığı 'Android Drop' güncellemelerinin Haziran sürümünü kullanıma sundu. Bu ay güvenlik, kişiselleştirme ve üretkenlik tarafında dikkat çekici yenilikler var.",
+      "En önemli yenilik, Telefon uygulamasına gelen dolandırıcı arama tespiti. Sistem şüpheli aramaları otomatik olarak işaretleyerek kullanıcıları uyarıyor.",
+      "Google Photos ise 'dijital gardırop' özelliği kazandı: fotoğraflarınızdaki kıyafetleri otomatik kataloglayıp sanal olarak kombinler oluşturmanıza imkân tanıyor. Ayrıca Android telefonlar ile iPhone'lar arasında dosya paylaşımı belirgin biçimde kolaylaştı.",
+      "Circle to Search özelliği de genişledi; artık Android 14 ve üzeri destekleyen tüm cihazlarda çoklu nesne tanıma ile kullanılabiliyor."
+    ]
+  },
+  {
+    id: 21,
+    category: "telefon",
+    title: "Motorola Edge 70 Pro+ Tanıtıldı: 50x Yapay Zeka Süper Zoom",
+    summary: "Periskop lens, MediaTek Dimensity 8500 Extreme ve 6.8 inç AMOLED ekranla gelen yeni amiral gemisi adayını inceledik.",
+    image: "https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?w=900&q=80",
+    author: "Editör",
+    date: "2026-06-04",
+    readTime: 4,
+    views: 2640,
+    featured: true,
+    tags: ["motorola", "kamera", "lansman"],
+    body: [
+      "Motorola, 4 Haziran'da tanıttığı Edge 70 Pro+ ile üst segmentte iddiasını sürdürüyor. Cihazın en çok konuşulan özelliği kamera tarafında.",
+      "50 MP periskop lens 3.5x optik yakınlaştırma sunarken, yapay zeka destekli 'süper zoom' 50x'e kadar çıkıyor. Uzak nesnelerde detayın korunması, yazılım işlemenin gücünü gösteriyor.",
+      "6.8 inç AMOLED ekran ve MediaTek Dimensity 8500 Extreme yonga seti, akıcı bir günlük deneyim vaat ediyor.",
+      "İlk izlenimler olumlu; ancak yapay zeka zoom'un gerçek hayattaki performansını uzun süreli testlerde değerlendireceğiz."
+    ]
+  },
+  {
+    id: 22,
+    category: "yapay-zeka",
+    title: "Yapay Zeka Yarışı Kızıştı: Yeni Modeller Performans Rekorları Kırıyor",
+    summary: "GPT-5.5 Instant, Gemini 3.5 Flash ve Claude Opus 4.8 ile birlikte modeller hem daha hızlı hem daha yetenekli hale geliyor.",
+    image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=900&q=80",
+    author: "Editör",
+    date: "2026-06-04",
+    readTime: 6,
+    views: 4920,
+    featured: true,
+    tags: ["yapay zeka", "model", "karşılaştırma"],
+    body: [
+      "Yapay zeka modelleri arasındaki rekabet 2026'da yeni bir seviyeye ulaştı. OpenAI'ın GPT-5.5 Instant, Google'ın Gemini 3.5 Flash ve Anthropic'in Claude Opus 4.8 modelleri yeni performans ölçütleri belirliyor.",
+      "Bu yılın öne çıkan eğilimi yalnızca 'daha akıllı' değil, aynı zamanda 'daha hızlı' modeller. Anlık yanıt veren hafif sürümler, günlük kullanımda büyük fark yaratıyor.",
+      "Modeller artık metnin ötesine geçiyor; görsel, ses ve hatta video girdilerini birlikte işleyebiliyor. Bu çok kipli (multimodal) yetenekler, kullanım alanlarını hızla genişletiyor.",
+      "Kullanıcılar için sonuç olumlu: artan rekabet, daha düşük maliyet ve daha geniş erişim anlamına geliyor."
+    ]
+  },
+  {
+    id: 23,
+    category: "yapay-zeka",
+    title: "Videodan Görsel Üreten Yapay Zeka: Google Imagen 3 Yaygınlaştı",
+    summary: "Imagen 3 Nano ve Pro modelleri, video dosyalarını komut olarak kullanıp bağlama duyarlı görseller üretebiliyor.",
+    image: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=900&q=80",
+    author: "Editör",
+    date: "2026-06-02",
+    readTime: 5,
+    views: 3110,
+    featured: false,
+    tags: ["üretken yapay zeka", "görsel", "google"],
+    body: [
+      "Google'ın Imagen 3 Nano ve Pro modelleri Haziran 2026'da geniş kullanıma açıldı. En dikkat çekici özelliği, görsel üretmek için video dosyalarını girdi olarak kullanabilmesi.",
+      "Bu sayede bir videonun içeriğine duyarlı küçük resimler (thumbnail) ve bilgi grafikleri (infografik) otomatik olarak oluşturulabiliyor.",
+      "İçerik üreticileri için bu, üretim sürecini ciddi biçimde hızlandıran bir araç. Bir videodan tutarlı görseller türetmek artık dakikalar sürüyor.",
+      "Yine de telif ve özgünlük tartışmaları sürüyor; üretilen içeriğin kaynağının şeffaf olması giderek daha önemli hale geliyor."
+    ]
+  },
+  {
+    id: 24,
+    category: "oyun",
+    title: "El Konsolu Çağı: Legion Go 2, MSI ve Acer Sahneye Çıkıyor",
+    summary: "Lenovo Legion Go 2, yeni MSI el konsolu ve Acer Predator Atlas 8 ile taşınabilir oyun pazarı her zamankinden hareketli.",
+    image: "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=900&q=80",
+    author: "Editör",
+    date: "2026-06-01",
+    readTime: 6,
+    views: 3580,
+    featured: true,
+    tags: ["el konsolu", "oyun", "donanım"],
+    body: [
+      "Taşınabilir oyun konsolu pazarı 2026'da rekabetin en yoğun olduğu alanlardan biri. Bu ay birkaç önemli cihaz aynı anda sahneye çıkıyor.",
+      "Lenovo, SteamOS tabanlı ikinci el konsolu Legion Go 2'yi 8.8 inç ekran ve Ryzen Z2 Extreme işlemciyle Haziran'da piyasaya sürüyor. MSI'ın yeni el konsolu da bu ay tanıtılıyor.",
+      "Acer ise Predator Atlas 8 ile pazara giriyor; Intel'in yeni özel taşınabilir oyun platformuna dayanan ilk cihazlardan biri olması dikkat çekiyor.",
+      "Bu cihazların fiyatları hatırı sayılır seviyede; yine de PC oyunlarını cebinizde taşıma fikri, oyuncular için giderek daha cazip hale geliyor."
+    ]
+  },
+  {
+    id: 25,
+    category: "araba",
+    title: "Rivian R2 İlk Teslimatlarına Başlıyor: 530 km Menzil, 3.6 Saniyede 100 km/s",
+    summary: "Daha uygun fiyatlı elektrikli SUV R2'nin ilk müşteri teslimatları başlıyor. Performans ve menzil rakamları iddialı.",
+    image: "https://images.unsplash.com/photo-1593941707882-a5bba14938c7?w=900&q=80",
+    author: "Editör",
+    date: "2026-06-04",
+    readTime: 5,
+    views: 2870,
+    featured: false,
+    tags: ["elektrikli araç", "rivian", "suv"],
+    body: [
+      "Rivian, merakla beklenen daha uygun fiyatlı elektrikli SUV'u R2'nin ilk müşteri teslimatları için tarihi belirledi. Şirket için kritik bir dönüm noktası.",
+      "R2, tek şarjla yaklaşık 530 km'ye varan menzil sunarken, 0'dan 100 km/s hıza 3.6 saniyede ulaşabiliyor. Bu, segmentinde güçlü bir performans.",
+      "Markanın daha erişilebilir bir fiyatla daha geniş bir kitleye ulaşma stratejisinin merkezinde bu model yer alıyor.",
+      "Elektrikli SUV pazarındaki rekabet kızışırken, R2'nin menzil ve performans dengesi onu öne çıkaran en önemli unsurlardan biri."
+    ]
+  },
+  {
+    id: 26,
+    category: "araba",
+    title: "Kia'nın Siber Tasarımlı Elektrikli Spor Otomobili '%90 Üretime Hazır'",
+    summary: "Konsept aşamasından çıkıp seri üretime yaklaşan iddialı tasarımıyla Kia'nın elektrikli spor otomobili gündemde.",
+    image: "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=900&q=80",
+    author: "Editör",
+    date: "2026-05-11",
+    readTime: 4,
+    views: 2230,
+    featured: false,
+    tags: ["kia", "elektrikli araç", "tasarım"],
+    body: [
+      "Kia'nın siber esintili tasarımıyla dikkat çeken elektrikli spor otomobilinin üretime '%90 hazır' olduğu belirtiliyor. Bu, konseptin gerçeğe dönüşmeye çok yaklaştığı anlamına geliyor.",
+      "Geleneksel marka algısını değiştirmeyi hedefleyen bu model, keskin hatları ve gelecekçi tasarımıyla öne çıkıyor.",
+      "Elektrikli spor otomobil segmenti, performansı çevre dostu teknolojiyle buluşturmak isteyen sürücüler için hızla büyüyor.",
+      "Seri üretim detayları netleştikçe, fiyat ve teknik özelliklerin de açıklanması bekleniyor."
+    ]
   }
 ];
 
