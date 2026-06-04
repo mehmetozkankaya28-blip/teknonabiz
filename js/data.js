@@ -625,6 +625,63 @@ const ARTICLES = [
       "İkinci yenilik 'Add to Music App'; uygulamada keşfettiğiniz şarkıları, tercih ettiğiniz müzik akış servisine doğrudan kaydetmenizi sağlıyor.",
       "Reklam verenler de artık TikTok kullanıcılarına WhatsApp ve Messenger gibi diğer mesajlaşma uygulamaları üzerinden ulaşabilecek."
     ]
+  },
+  {
+    id: 34,
+    category: "bilgisayar",
+    title: "Nvidia 'PC'yi Yeniden İcat Ediyor': RTX Spark ile Dizüstü Pazarına Giriş",
+    summary: "Jensen Huang, Computex 2026'da yapay zeka entegre RTX Spark dizüstü yongasını tanıttı. Microsoft ile birlikte PC'yi dönüştürme iddiası büyük.",
+    image: "https://images.unsplash.com/photo-1531492746076-161ca9bcad58?w=900&q=80",
+    author: "Editör",
+    date: "2026-06-03",
+    readTime: 6,
+    views: 4380,
+    featured: true,
+    tags: ["nvidia", "işlemci", "yapay zeka"],
+    body: [
+      "Nvidia CEO'su Jensen Huang, 1 Haziran'da Computex 2026'da yeni nesil tüketici PC yongası RTX Spark'ı tanıttı. Bu, şirketin Windows dizüstü işlemci pazarına güçlü bir girişi anlamına geliyor.",
+      "Huang, Microsoft ile birlikte 'PC'yi yeniden icat edeceklerini' söyledi. RTX Spark'ın en büyük iddiası, yapay zekayı doğrudan donanım katmanına entegre etmesi.",
+      "Bu hamle, Nvidia'yı yapay zeka yığınının her katmanında — veri merkezinden cep bilgisayarına kadar — söz sahibi yapma stratejisinin bir parçası.",
+      "Yeni yonganın gerçek dünya performansı ve pil verimliliği, piyasaya çıkan ilk cihazlarla netleşecek; ancak rekabetin daha da kızışacağı kesin."
+    ]
+  },
+  {
+    id: 35,
+    category: "giyilebilir",
+    title: "Yapay Zeka Gözlük Savaşları Başladı: Google, Warby Parker ve Meta Sahada",
+    summary: "Google I/O 2026'da Gemini destekli akıllı gözlükler tanıtıldı; Meta ise dört yeni model hazırlıyor. Ekransız, sesle çalışan asistan dönemi geliyor.",
+    image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=900&q=80",
+    author: "Editör",
+    date: "2026-06-02",
+    readTime: 6,
+    views: 3960,
+    featured: false,
+    tags: ["akıllı gözlük", "yapay zeka", "giyilebilir"],
+    body: [
+      "Akıllı gözlük pazarı 2026'da rekabetin en kızgın olduğu alanlardan biri haline geldi. Google, I/O 2026'da Warby Parker ile birlikte Gemini ve Android XR üzerinde çalışan 'Akıllı Gözlük' serisini tanıttı.",
+      "Gözlükler iki versiyonda geliyor: sesli yardım sunan ses odaklı modeller ve bilgileri görüş alanınızda gösteren ekranlı modeller. Önünüzdeki bir tabelayı Gemini'ye sorup sesli yanıt alabiliyor, hatta sesle fotoğraf çekebiliyorsunuz.",
+      "Meta cephesinde ise en az dört yeni akıllı gözlük modeli yolda; 'Modelo' Haziran'da, diğerleri sonbaharda bekleniyor. Meta ayrıca konuşmaları kaydedip özetleyen yapay zeka destekli bir kolye üzerinde çalışıyor.",
+      "Ekransız, sesle çalışan yapay zeka asistanları, telefonun yerini kısmen alabilecek yeni bir giyilebilir kategori yaratıyor. Gizlilik tartışmaları ise yeni başlıyor."
+    ]
+  },
+  {
+    id: 36,
+    category: "yapay-zeka",
+    title: "Humanoid Robotlar Henüz Hazır Değil: CES 2026'nın Dürüst Tablosu",
+    summary: "Ev işlerini yapan robot hayali güzel; ama gerçek şu an çok yavaş. CES 2026'da robotlar etkileyiciden çok 'umut vadeden' kategorisindeydi.",
+    image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=900&q=80",
+    author: "Editör",
+    date: "2026-06-01",
+    readTime: 5,
+    views: 3210,
+    featured: false,
+    tags: ["robot", "yapay zeka", "ces"],
+    body: [
+      "CES 2026, humanoid (insansı) robotların henüz günlük hayata hazır olmadığını açıkça gösterdi. En büyük sorun: robotlar can sıkıcı derecede yavaş.",
+      "Bulaşık yıkayan veya çamaşır katlayan bir ev robotu beklentiniz varsa, bunun hâlâ yıllar uzakta olduğunu söylemek gerek. Fuardaki gösterimlerin çoğu kontrollü ortamlarda yapıldı.",
+      "Yine de umut vadeden örnekler vardı: CLOiD adlı robot, yapay zeka ve görüş tabanlı teknolojiyle yemek pişirme ve çamaşır gibi işleri deniyor; iki kollu gövdesi ve tekerlekli tabanıyla otonom hareket edebiliyor.",
+      "Kısa vadede robotlar evimize girmese de, sanayi ve depo gibi kontrollü alanlarda hızla yaygınlaşıyorlar. Asıl devrim, yapay zekanın bu robotları gerçek zamanlı 'düşündürmesiyle' gelecek."
+    ]
   }
 ];
 
