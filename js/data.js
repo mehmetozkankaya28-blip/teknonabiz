@@ -1,5 +1,5 @@
 /* =========================================================
-   TeknoNabız - İçerik Verisi
+   Teknomecra - İçerik Verisi
    Yeni haber eklemek için ARTICLES dizisine yeni bir nesne ekle.
    Her haberin benzersiz bir "id" değeri olmalı.
    ========================================================= */

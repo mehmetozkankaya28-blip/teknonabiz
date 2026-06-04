@@ -1,5 +1,5 @@
 /* =========================================================
-   TeknoNabız - Ana Script
+   Teknomecra - Ana Script
    Ortak başlık/altbilgiyi basar ve sayfaları render eder.
    ========================================================= */
 
@@ -85,7 +85,7 @@ function renderHeader(activeSlug) {
             fill="none" stroke="url(#lg)" stroke-width="5"
             stroke-linecap="round" stroke-linejoin="round"/>
         </svg>
-        Tekno<span>Nabız</span><span class="dot">.</span>
+        Tekno<span>mecra</span><span class="dot">.</span>
       </a>
       <div class="search-box">
         <input type="text" id="searchInput" placeholder="Haber ara..." autocomplete="off">
@@ -110,7 +110,7 @@ function renderFooter() {
   <footer class="site-footer">
     <div class="container footer-grid">
       <div class="footer-col" style="max-width:260px">
-        <h4 class="logo" style="font-size:1.2rem">Tekno<span>Nabız</span></h4>
+        <h4 class="logo" style="font-size:1.2rem">Tekno<span>mecra</span></h4>
         <p style="color:var(--text-soft);font-size:.88rem;margin-top:8px">
           Teknoloji dünyasından en güncel haberler, incelemeler ve karşılaştırmalar.
         </p>
@@ -129,7 +129,7 @@ function renderFooter() {
       </div>
     </div>
     <div class="container footer-bottom">
-      © ${new Date().getFullYear()} TeknoNabız — Tüm hakları saklıdır. Demo amaçlı hazırlanmıştır.
+      © ${new Date().getFullYear()} Teknomecra — Tüm hakları saklıdır. Demo amaçlı hazırlanmıştır.
     </div>
   </footer>`;
 }
@@ -257,7 +257,7 @@ function renderCategory() {
     return;
   }
 
-  document.title = `${cat.name} — TeknoNabız`;
+  document.title = `${cat.name} — Teknomecra`;
   const list = getArticlesByCategory(slug);
   const body = list.length
     ? `<div class="grid">${list.map((a, i) =>
@@ -288,7 +288,7 @@ function renderArticle() {
 
   const cat = getCategory(a.category);
   document.getElementById("header").innerHTML = renderHeader(a.category);
-  document.title = `${a.title} — TeknoNabız`;
+  document.title = `${a.title} — Teknomecra`;
 
   const related = getArticlesByCategory(a.category).filter(x => x.id !== a.id).slice(0, 3);
 
@@ -441,12 +441,12 @@ function initReadProgress() {
 function renderAbout() {
   document.getElementById("header").innerHTML = renderHeader(null);
   document.getElementById("footer").innerHTML = renderFooter();
-  document.title = "Hakkımızda — TeknoNabız";
+  document.title = "Hakkımızda — Teknomecra";
   document.getElementById("content").innerHTML = `
     <div class="page-head container"><h1>ℹ️ Hakkımızda</h1>
-      <p>TeknoNabız'ın hikayesi ve neden buradayız.</p></div>
+      <p>Teknomecra'nın hikayesi ve neden buradayız.</p></div>
     <div class="page-content">
-      <p><strong>TeknoNabız</strong>, teknolojiyi herkes için anlaşılır kılmak amacıyla kurulmuş bağımsız bir
+      <p><strong>Teknomecra</strong>, teknolojiyi herkes için anlaşılır kılmak amacıyla kurulmuş bağımsız bir
       teknoloji haber ve inceleme platformudur. Cep telefonlarından otomobil teknolojilerine, yapay zekadan
       oyunlara kadar geniş bir yelpazede; abartısız, dürüst ve sade içerikler üretiyoruz.</p>
       <p>Amacımız bir ürünü satın almadan önce gerçekten ihtiyacınız olan bilgiyi vermek. Reklam diliyle değil,
@@ -477,15 +477,15 @@ function renderAbout() {
 function renderContact() {
   document.getElementById("header").innerHTML = renderHeader(null);
   document.getElementById("footer").innerHTML = renderFooter();
-  document.title = "İletişim — TeknoNabız";
+  document.title = "İletişim — Teknomecra";
   document.getElementById("content").innerHTML = `
     <div class="page-head container"><h1>✉️ İletişim</h1>
       <p>Soruların, önerilerin veya iş birliği teklifin mi var? Bize yaz!</p></div>
     <div class="page-content">
       <div class="value-grid">
-        <div class="value-card"><div class="ic">📧</div><h3>E-posta</h3><p>merhaba@teknonabiz.example</p></div>
-        <div class="value-card"><div class="ic">📰</div><h3>Editöre Ulaş</h3><p>haber@teknonabiz.example</p></div>
-        <div class="value-card"><div class="ic">📣</div><h3>Reklam & İş Birliği</h3><p>reklam@teknonabiz.example</p></div>
+        <div class="value-card"><div class="ic">📧</div><h3>E-posta</h3><p>merhaba@teknomecra.com</p></div>
+        <div class="value-card"><div class="ic">📰</div><h3>Editöre Ulaş</h3><p>haber@teknomecra.com</p></div>
+        <div class="value-card"><div class="ic">📣</div><h3>Reklam & İş Birliği</h3><p>reklam@teknomecra.com</p></div>
       </div>
       <h2>Mesaj Gönder</h2>
       <form class="comment-form" id="contactForm">
@@ -529,7 +529,7 @@ function renderSearch() {
     getCategory(a.category).name.toLowerCase().includes(q)
   );
 
-  document.title = `"${q}" için arama — TeknoNabız`;
+  document.title = `"${q}" için arama — Teknomecra`;
   const body = results.length
     ? `<div class="grid">${results.map(articleCard).join("")}</div>`
     : `<div class="empty-state"><p>"${q}" için sonuç bulunamadı.</p></div>`;

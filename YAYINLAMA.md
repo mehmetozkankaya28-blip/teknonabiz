@@ -1,6 +1,6 @@
 # 🚀 Siteyi Yayına Alma Rehberi
 
-TeknoNabız tamamen statik bir site (HTML/CSS/JS). Sunucu veya derleme gerektirmez,
+Teknomecra tamamen statik bir site (HTML/CSS/JS). Sunucu veya derleme gerektirmez,
 bu yüzden ücretsiz olarak çok kolay yayınlanır. İki yöntem öneriyoruz.
 
 ---
@@ -22,10 +22,10 @@ bu yüzden ücretsiz olarak çok kolay yayınlanır. İki yöntem öneriyoruz.
 Bu klasör zaten bir git deposu olarak hazırlandı. Sadece kendi depona gönder:
 
 ```bash
-# 1) GitHub'da "teknonabiz" adında BOŞ bir repo oluştur (README ekleme).
+# 1) GitHub'da "teknomecra" adında BOŞ bir repo oluştur (README ekleme).
 # 2) Bu klasörde şu komutları çalıştır (KULLANICIADI'nı kendi adınla değiştir):
 
-git remote add origin https://github.com/KULLANICIADI/teknonabiz.git
+git remote add origin https://github.com/KULLANICIADI/teknomecra.git
 git branch -M main
 git push -u origin main
 ```
@@ -34,14 +34,14 @@ Ardından GitHub'da:
 1. Repo sayfasında **Settings → Pages** bölümüne git.
 2. "Build and deployment" altında **Source: Deploy from a branch** seç.
 3. **Branch: main**, klasör: **/ (root)** seç ve **Save**'e bas.
-4. 1-2 dakika sonra siten `https://KULLANICIADI.github.io/teknonabiz/` adresinde yayında olur.
+4. 1-2 dakika sonra siten `https://KULLANICIADI.github.io/teknomecra/` adresinde yayında olur.
 
 > İçeriği her güncellediğinde `git add .` → `git commit -m "guncelleme"` → `git push`
 > yapman yeterli; site otomatik güncellenir.
 
 ---
 
-## Kendi Alan Adın (örnek: teknonabiz.com)
+## Kendi Alan Adın (örnek: teknomecra.com)
 
 Her iki platform da ücretsiz planda özel alan adı bağlamaya izin verir.
 Bir alan adı satın aldıktan sonra platformun "Domain / Custom domain" ayarından ekleyebilirsin.

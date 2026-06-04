@@ -1,4 +1,4 @@
-# TeknoNabız 📡
+# Teknomecra 📡
 
 Teknoloji haber ve inceleme sitesi. Kurulum/derleme gerektirmez — `index.html` dosyasına çift tıklayarak tarayıcıda açabilirsin.
 
