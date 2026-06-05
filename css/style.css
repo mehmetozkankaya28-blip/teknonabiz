@@ -291,6 +291,10 @@ h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 600; letter-spac
 .tag { font-size: .8rem; padding: 6px 12px; background: var(--bg-soft); border: 1px solid var(--border); border-radius: 9px; color: var(--text-soft); transition: color .2s, border-color .2s; }
 .tag:hover { color: var(--accent); border-color: var(--accent); }
 .back-link { color: var(--accent); font-weight: 600; display: inline-block; margin-bottom: 20px; }
+.article-sources { margin-top: 28px; padding: 18px 20px; background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius); }
+.article-sources h3 { font-size: 1rem; margin-bottom: 10px; }
+.article-sources a { display: block; color: var(--accent); font-size: .9rem; padding: 4px 0; word-break: break-word; }
+.article-sources a:hover { text-decoration: underline; }
 
 /* ---------------- Yorumlar ---------------- */
 .comments-wrap { max-width: 770px; margin: 10px auto 0; padding: 10px 22px 40px; }

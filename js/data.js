@@ -368,15 +368,28 @@ const ARTICLES = [
     image: "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=900&q=80",
     author: "Editör",
     date: "2026-06-03",
-    readTime: 5,
+    readTime: 8,
     views: 3270,
     featured: true,
     tags: ["android", "güncelleme", "güvenlik"],
     body: [
-      "Google, her ay yayınladığı 'Android Drop' güncellemelerinin Haziran sürümünü kullanıma sundu. Bu ay güvenlik, kişiselleştirme ve üretkenlik tarafında dikkat çekici yenilikler var.",
-      "En önemli yenilik, Telefon uygulamasına gelen dolandırıcı arama tespiti. Sistem şüpheli aramaları otomatik olarak işaretleyerek kullanıcıları uyarıyor.",
-      "Google Photos ise 'dijital gardırop' özelliği kazandı: fotoğraflarınızdaki kıyafetleri otomatik kataloglayıp sanal olarak kombinler oluşturmanıza imkân tanıyor. Ayrıca Android telefonlar ile iPhone'lar arasında dosya paylaşımı belirgin biçimde kolaylaştı.",
-      "Circle to Search özelliği de genişledi; artık Android 14 ve üzeri destekleyen tüm cihazlarda çoklu nesne tanıma ile kullanılabiliyor."
+      "Google, her ay yayımladığı 'Android Drop' güncellemelerinin Haziran 2026 sürümünü kullanıma sundu. Bu ayki paket; güvenlik, kişiselleştirme ve üretkenlik tarafında toplam yedi yeni özellik getiriyor. Öne çıkanları ve bunların günlük kullanımda ne anlama geldiğini derledik.",
+      { h: "Dolandırıcı Arama Tespiti" },
+      "Paketin en dikkat çekici yeniliği, Telefon (Phone by Google) uygulamasına gelen sahte arama tespiti. Şifreli RCS altyapısını kullanan sistem, bir dolandırıcının güvendiğiniz bir kişinin numarasını taklit edip etmediğini doğrulayabiliyor. Arama gerçekten o kişinin cihazından gelmiyorsa uygulama sizi uyarıyor.",
+      "Özelliğin çalışması için her iki tarafın da Android 12 ve üzeri bir cihazda; RCS etkin Google Mesajlar, Rehber ve Telefon uygulamalarına sahip olması gerekiyor. Yorumumuz: numara sahteciliği (spoofing) yıllardır en yaygın dolandırıcılık yöntemlerinden biriydi; bu doğrulama katmanı gerçek bir koruma sağlayabilir.",
+      { img: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=900&q=80", caption: "Haziran Android paketi, güvenlikten kişiselleştirmeye yedi yeni özellik içeriyor." },
+      { h: "Google Photos'ta Dijital Gardırop" },
+      "Google Photos, fotoğraf kütüphanenizdeki kıyafetleri otomatik olarak kataloglayan bir 'dijital gardırop' özelliği kazanıyor. Sistem, giydiğiniz kıyafetlerden gözden geçirilebilir bir dolap oluşturuyor; kombinleri kaydetmenize ve yeni kombinler planlamanıza imkân tanıyor. Dağıtım önce Hindistan, ABD ve Brezilya'da, Android 10 ve üzeri cihazlarda başlıyor.",
+      { h: "iPhone ile Dosya Paylaşımı ve Circle to Search" },
+      "Bir diğer pratik yenilik, Android ile iPhone arasında dosya paylaşımının (Quick Share) belirgin biçimde kolaylaşması. Apple'ın AirDrop ekosistemiyle köprü kurulması, farklı platform kullanan kullanıcılar için uzun süredir beklenen bir adım.",
+      "Görselden arama yapan Circle to Search ise genişliyor: çoklu nesne tanıma artık tüm uyumlu Android 14 telefonlarda kullanılabiliyor. Bir fotoğraftaki kombinin tamamını, tek tek aramaya gerek kalmadan bulabiliyorsunuz.",
+      { quote: "Bu güncellemenin asıl teması güvenlik ve yapay zekanın sessizce günlük kullanıma yerleşmesi: özellikler gösterişten çok işe yararlık vaat ediyor." },
+      "Genel değerlendirme: Haziran paketi devrim niteliğinde olmasa da, dolandırıcılıkla mücadele ve platformlar arası uyum gibi gerçek sorunlara dokunması açısından kıymetli. Cihazınız uygunsa güncellemeyi geciktirmemenizi öneririz."
+    ],
+    sources: [
+      { name: "Google Blog — June Android Drop", url: "https://blog.google/products-and-platforms/platforms/android/android-drop-june-2026/" },
+      { name: "Android Authority", url: "https://www.androidauthority.com/june-2026-android-drop-3673129/" },
+      { name: "Business Standard", url: "https://www.business-standard.com/technology/tech-news/android-s-june-update-adds-scam-call-alerts-digital-wardrobe-and-more-126060300850_1.html" }
     ]
   },
   {
@@ -387,15 +400,24 @@ const ARTICLES = [
     image: "https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?w=900&q=80",
     author: "Editör",
     date: "2026-06-04",
-    readTime: 4,
+    readTime: 7,
     views: 2640,
     featured: true,
     tags: ["motorola", "kamera", "lansman"],
     body: [
-      "Motorola, 4 Haziran'da tanıttığı Edge 70 Pro+ ile üst segmentte iddiasını sürdürüyor. Cihazın en çok konuşulan özelliği kamera tarafında.",
-      "50 MP periskop lens 3.5x optik yakınlaştırma sunarken, yapay zeka destekli 'süper zoom' 50x'e kadar çıkıyor. Uzak nesnelerde detayın korunması, yazılım işlemenin gücünü gösteriyor.",
-      "6.8 inç AMOLED ekran ve MediaTek Dimensity 8500 Extreme yonga seti, akıcı bir günlük deneyim vaat ediyor.",
-      "İlk izlenimler olumlu; ancak yapay zeka zoom'un gerçek hayattaki performansını uzun süreli testlerde değerlendireceğiz."
+      "Motorola, 4 Haziran 2026'da tanıttığı Edge 70 Pro+ ile üst segmentteki iddiasını sürdürüyor. Uzun süredir tasarım ve fiyat dengesiyle öne çıkan marka, bu modelde özellikle kamera ve performans tarafına yüklenmiş.",
+      { h: "Kamera: 50x Yapay Zeka Süper Zoom" },
+      "Cihazın en çok konuşulan yanı kamerası. 50 MP'lik periskop lens 3.5x optik yakınlaştırma sunarken, yapay zeka destekli 'süper zoom' 50x'e kadar çıkıyor. Bu noktada asıl belirleyici olan optik değil, görüntüyü yeniden inşa eden yazılım işleme.",
+      "Yorumumuz: 50x gibi rakamlar etkileyici dursa da, bu seviyelerde görüntü büyük ölçüde yapay zeka tarafından 'tahmin edilerek' oluşturuluyor. Optik 3.5x ve makul bir dijital aralık, çoğu kullanıcı için günlük kullanımda daha tutarlı sonuç verecektir.",
+      { img: "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=900&q=80", caption: "Periskop lensler, ince gövdelerde yüksek optik yakınlaştırmayı mümkün kılıyor." },
+      { h: "Ekran ve Performans" },
+      "6.8 inç AMOLED ekran, canlı renkler ve akıcı bir kaydırma deneyimi vaat ediyor. Güç tarafında ise MediaTek'in üst düzey Dimensity 8500 Extreme yonga seti yer alıyor; bu da oyun ve çoklu görev için fazlasıyla yeterli bir performans anlamına geliyor.",
+      { h: "İlk Değerlendirme" },
+      "Edge 70 Pro+, kâğıt üzerinde dengeli ve iddialı bir paket sunuyor. Yine de yapay zeka zoom'un gerçek hayattaki başarısı, pil ömrü ve yazılım güncelleme desteği gibi başlıkları uzun süreli kullanımda test etmeden net bir hüküm vermek doğru olmaz.",
+      { quote: "Motorola, bu modelle 'amiral gemisi deneyimini daha erişilebilir fiyata sunma' stratejisini sürdürüyor gibi görünüyor." }
+    ],
+    sources: [
+      { name: "Techlusive — Haziran 2026 telefon lansmanları", url: "https://www.techlusive.in/mobile-phones/upcoming-smartphone-launches-in-june-2026-motorola-xiaomi-samsung-and-more-1664376/" }
     ]
   },
   {
@@ -406,15 +428,30 @@ const ARTICLES = [
     image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=900&q=80",
     author: "Editör",
     date: "2026-06-04",
-    readTime: 6,
+    readTime: 8,
     views: 4920,
     featured: true,
     tags: ["yapay zeka", "model", "karşılaştırma"],
     body: [
-      "Yapay zeka modelleri arasındaki rekabet 2026'da yeni bir seviyeye ulaştı. OpenAI'ın GPT-5.5 Instant, Google'ın Gemini 3.5 Flash ve Anthropic'in Claude Opus 4.8 modelleri yeni performans ölçütleri belirliyor.",
-      "Bu yılın öne çıkan eğilimi yalnızca 'daha akıllı' değil, aynı zamanda 'daha hızlı' modeller. Anlık yanıt veren hafif sürümler, günlük kullanımda büyük fark yaratıyor.",
-      "Modeller artık metnin ötesine geçiyor; görsel, ses ve hatta video girdilerini birlikte işleyebiliyor. Bu çok kipli (multimodal) yetenekler, kullanım alanlarını hızla genişletiyor.",
-      "Kullanıcılar için sonuç olumlu: artan rekabet, daha düşük maliyet ve daha geniş erişim anlamına geliyor."
+      "Yapay zeka modelleri arasındaki rekabet 2026'da yeni bir seviyeye ulaştı. OpenAI'ın GPT-5.5 Instant, Google'ın Gemini 3.5 Flash ve Anthropic'in Claude Opus 4.8 modelleri, art arda yeni performans ölçütleri belirliyor. Peki bu yarış kullanıcı için ne anlama geliyor?",
+      { h: "Artık Sadece 'Daha Akıllı' Değil, 'Daha Hızlı'" },
+      "Bu yılın en belirgin eğilimi, modellerin yalnızca daha yetenekli değil aynı zamanda çok daha hızlı hale gelmesi. GPT-5.5 Instant ve Gemini 3.5 Flash gibi 'anlık' sürümler, neredeyse gecikmesiz yanıt vererek sohbet ve arama deneyimini akıcılaştırıyor.",
+      "Yorumumuz: Birkaç yıl önce kıyasıya tartışılan 'hangi model daha zeki' sorusu yerini giderek 'hangisi daha hızlı ve daha ucuz' sorusuna bırakıyor. Çünkü günlük kullanımda saniyeler, ham zekâdan daha çok hissediliyor.",
+      { img: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=900&q=80", caption: "Modeller artık metnin yanı sıra görsel, ses ve videoyu birlikte işleyebiliyor." },
+      { h: "Çok Kipli (Multimodal) Dönem" },
+      "Yeni nesil modeller metnin çok ötesine geçti. Görsel, ses ve hatta video girdilerini aynı anda işleyebiliyorlar. Örneğin Google'ın Imagen serisi, bir videoyu komut olarak alıp bağlama duyarlı görseller üretebiliyor. Bu, içerik üretiminden eğitime kadar pek çok alanı dönüştürüyor.",
+      { h: "Kullanıcı İçin Sonuç" },
+      { list: [
+        "Artan rekabet, kullanım başına maliyetlerin düşmesini sağlıyor.",
+        "Hafif sürümler sayesinde yapay zeka daha fazla cihaza ve uygulamaya giriyor.",
+        "Çok kipli yetenekler, tek bir asistanla daha fazla işi halletmeyi mümkün kılıyor."
+      ] },
+      { quote: "2026'nın kazananı tek bir model değil; bu hızlı rekabetten faydalanan kullanıcılar olacak." },
+      "Özetle yapay zeka pazarı, olgunlaşırken bile hız kesmiyor. Hangi modeli kullanırsanız kullanın, birkaç ay içinde daha hızlı ve daha ucuz bir alternatifinin çıkması artık sürpriz değil."
+    ],
+    sources: [
+      { name: "AIapps — Haziran 2026 yapay zeka haberleri", url: "https://www.aiapps.com/blog/ai-news-breakthroughs-launches-trends-must-read/" },
+      { name: "LLM-Stats — Model güncellemeleri", url: "https://llm-stats.com/llm-updates" }
     ]
   },
   {
@@ -577,15 +614,26 @@ const ARTICLES = [
     image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=900&q=80",
     author: "Editör",
     date: "2026-06-02",
-    readTime: 5,
+    readTime: 7,
     views: 3340,
     featured: true,
     tags: ["meta", "abonelik", "sosyal medya"],
     body: [
-      "Meta, Instagram, Facebook ve WhatsApp genelinde ücretli abonelik katmanlarını devreye aldı. Bu, platformların gelir modelinde önemli bir değişime işaret ediyor.",
-      "Instagram Plus ve Facebook Plus aylık yaklaşık 3.99 dolar, WhatsApp Plus ise 2.99 dolar olarak fiyatlandırıldı.",
-      "Abonelikler genellikle ek özellikler ve daha az reklam vaat ediyor. Ancak temel deneyimin ne kadarının ücretsiz kalacağı kullanıcıların merak ettiği asıl soru.",
-      "Sosyal medyanın 'ücretsiz' modelinden kademeli olarak uzaklaşması, sektör için dikkatle izlenmesi gereken bir eğilim."
+      "Meta; Instagram, Facebook ve WhatsApp genelinde ücretli abonelik katmanlarını devreye aldı. Yıllardır reklam geliriyle ayakta duran bu platformlar için bu, gelir modelinde dikkat çekici bir yön değişimine işaret ediyor.",
+      { h: "Fiyatlar ve Katmanlar" },
+      "Yeni katmanlar şu şekilde fiyatlandırıldı: Instagram Plus ve Facebook Plus aylık yaklaşık 3,99 dolar, WhatsApp Plus ise 2,99 dolar. Abonelikler genellikle ek özellikler ve daha az reklam vaat ediyor.",
+      { img: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=900&q=80", caption: "Meta, ücretsiz sosyal medya modelinden kademeli olarak uzaklaşıyor." },
+      { h: "Sadece Abonelik Değil" },
+      "Meta cephesindeki hareketlilik bununla sınırlı değil. Instagram; Reels için küçük pencerede oynatma (PiP), büyük ekranlar için ayrı bir TV uygulaması ve Hikâyeler'de yeni yazı tipleri gibi özellikleri test ediyor. WhatsApp tarafında ise telefon numarasını gizleyen kullanıcı adları devreye giriyor.",
+      { h: "Bu Ne Anlama Geliyor?" },
+      "Yorumumuz: Asıl kritik soru, temel deneyimin ne kadarının ücretsiz kalacağı. Eğer 'daha az reklam' gibi özellikler ücretli katmana taşınırsa, ücretsiz kullanım zamanla daha sınırlı hale gelebilir.",
+      { quote: "Sosyal medyanın 'ücretsiz' modelinden uzaklaşması, tüm sektör için dikkatle izlenmesi gereken bir dönüm noktası olabilir." },
+      "Kısacası Meta, kullanıcılarına ödeme yapma seçeneği sunarken reklam gelirine olan bağımlılığını azaltmaya çalışıyor. Bu modelin tutup tutmayacağını, kullanıcıların ödemeye ne kadar istekli olduğu belirleyecek."
+    ],
+    sources: [
+      { name: "Metricool — Instagram 2026 güncellemeleri", url: "https://metricool.com/instagram-news/" },
+      { name: "SocialBee — Sosyal medya haberleri", url: "https://socialbee.com/blog/social-media-news/" },
+      { name: "HeyOrca — Instagram değişiklikleri", url: "https://www.heyorca.com/blog/instagram-social-news" }
     ]
   },
   {
@@ -634,15 +682,28 @@ const ARTICLES = [
     image: "https://images.unsplash.com/photo-1531492746076-161ca9bcad58?w=900&q=80",
     author: "Editör",
     date: "2026-06-03",
-    readTime: 6,
+    readTime: 9,
     views: 4380,
     featured: true,
     tags: ["nvidia", "işlemci", "yapay zeka"],
     body: [
-      "Nvidia CEO'su Jensen Huang, 1 Haziran'da Computex 2026'da yeni nesil tüketici PC yongası RTX Spark'ı tanıttı. Bu, şirketin Windows dizüstü işlemci pazarına güçlü bir girişi anlamına geliyor.",
-      "Huang, Microsoft ile birlikte 'PC'yi yeniden icat edeceklerini' söyledi. RTX Spark'ın en büyük iddiası, yapay zekayı doğrudan donanım katmanına entegre etmesi.",
-      "Bu hamle, Nvidia'yı yapay zeka yığınının her katmanında — veri merkezinden cep bilgisayarına kadar — söz sahibi yapma stratejisinin bir parçası.",
-      "Yeni yonganın gerçek dünya performansı ve pil verimliliği, piyasaya çıkan ilk cihazlarla netleşecek; ancak rekabetin daha da kızışacağı kesin."
+      "Nvidia CEO'su Jensen Huang, Computex 2026'nın açılış konuşmasında yeni nesil tüketici PC yongası RTX Spark'ı tanıttı. Şirket bunu 'kişisel yapay zeka ajanları çağı için Windows PC'sini yeniden icat eden' bir platform olarak konumlandırıyor.",
+      { h: "Bir Yongadan Daha Fazlası" },
+      "RTX Spark, klasik bir dizüstü işlemcisinden çok bir 'süperçip'. İçinde 6.144 CUDA çekirdekli Blackwell RTX GPU, NVLink-C2C bağlantısıyla 20 çekirdekli Grace (Arm) işlemciye bağlanıyor. 128 GB birleşik LPDDR5X bellek ve saniyede 300 GB'a varan bellek bant genişliği sunuyor.",
+      "Huang, yongayı 'bir dizüstü işlemcisinden çok R2-D2'ye benzettiğini' söylüyor — yani yardımcı, akıllı bir 'takım arkadaşı' fikri. Bu güç, 120 milyar parametreli modelleri ve bir milyon token'a varan bağlamları yerel olarak çalıştırmaya yetiyor.",
+      { img: "https://images.unsplash.com/photo-1591488320449-011701bb6704?w=900&q=80", caption: "RTX Spark, GPU ve Arm tabanlı CPU'yu tek bir 'süperçip' üzerinde birleştiriyor." },
+      { h: "Microsoft ile Windows'u Dönüştürmek" },
+      "Nvidia bu işte yalnız değil. Microsoft ile birlikte, Windows'u 'agentic' (ajan tabanlı) bir platforma dönüştürmeyi hedefliyor. OpenShell çerçevesi ve yeni güvenlik mekanizmaları, yerel yapay zeka ajanlarının yalnızca kullanıcının izin verdiği veri ve araçlara erişmesini sağlayacak.",
+      "RTX Spark; Dell, HP, Lenovo, Asus ve MSI'ın üst düzey dizüstülerine ve dikkat çekici biçimde Microsoft'un yeni Surface Ultra modeline güç verecek.",
+      { h: "Yol Haritası ve Değerlendirme" },
+      "Nvidia üç nesillik bir plan çizdi: LPDDR6 bellekli 'Vera Rubin' çifti ve ardından 'Rosa Feynman'. Yorumumuz: Bu, Nvidia'nın yapay zeka yığınının her katmanında — dev veri merkezlerinden cep bilgisayarınıza kadar — söz sahibi olma stratejisinin açık bir adımı.",
+      { quote: "Eğer vaatler tutarsa, kişisel bilgisayar 'araç' olmaktan çıkıp gerçek bir 'asistana' dönüşebilir. Asıl test, gerçek dünyadaki performans ve pil ömrü olacak." },
+      "Daha fazla ayrıntının Microsoft'un Build konferansında açıklanması bekleniyor. Şimdilik kesin olan tek şey: PC pazarındaki rekabet, yapay zeka ekseninde daha da kızışıyor."
+    ],
+    sources: [
+      { name: "NVIDIA GeForce — Computex 2026", url: "https://www.nvidia.com/en-us/geforce/news/computex-2026-nvidia-geforce-rtx-announcements/" },
+      { name: "Tom's Hardware — RTX Spark Superchip", url: "https://www.tomshardware.com/laptops/nvidia-unveils-rtx-spark-superchip-at-computex-2026-new-platform-promises-to-turn-windows-into-an-agentic-ai-os-with-arm-cpu-blackwell-gpu-and-128gb-unified-memory" },
+      { name: "Tom's Guide — Jensen Huang röportajı", url: "https://www.tomsguide.com/computing/i-spoke-to-nvidia-ceo-jensen-huang-about-rtx-spark-he-is-willing-to-work-on-an-rtx-gaming-handheld-n2x-and-n3x-are-already-planned-and-the-chip-is-more-like-r2d2-than-a-laptop-cpu" }
     ]
   },
   {

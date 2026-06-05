@@ -27,20 +27,10 @@ function applyTheme(theme, remember) {
     btn.title = theme === "light" ? "Koyu temaya geç" : "Açık temaya geç";
   }
 }
-function systemTheme() {
-  return window.matchMedia && window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
-}
 function initTheme() {
   const saved = localStorage.getItem("tn-theme");
-  // Kayıtlı tercih yoksa işletim sisteminin temasını kullan
-  applyTheme(saved || systemTheme(), false);
-
-  // Kullanıcı elle seçmediyse, sistem teması değişince canlı takip et
-  if (window.matchMedia) {
-    window.matchMedia("(prefers-color-scheme: light)").addEventListener("change", e => {
-      if (!localStorage.getItem("tn-theme")) applyTheme(e.matches ? "light" : "dark", false);
-    });
-  }
+  // Varsayılan tema: açık (kayıtlı tercih varsa o kullanılır)
+  applyTheme(saved || "light", false);
 
   const btn = document.getElementById("themeToggle");
   if (btn) btn.addEventListener("click", () => {
@@ -375,6 +365,11 @@ function renderArticle() {
         ${renderBody(a.body)}
       </div>
       <div class="article-tags">${a.tags.map(t => `<span class="tag">#${t}</span>`).join("")}</div>
+      ${a.sources && a.sources.length ? `
+      <div class="article-sources">
+        <h3>📚 Kaynaklar</h3>
+        ${a.sources.map(s => `<a href="${s.url}" target="_blank" rel="noopener">↗ ${s.name}</a>`).join("")}
+      </div>` : ""}
       <div class="action-bar">
         <span class="label">Bu haberi:</span>
         <span class="act-btn" id="likeBtn">🤍 Beğen <span id="likeCount"></span></span>
