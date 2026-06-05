@@ -79,7 +79,7 @@ function renderHeader(activeSlug) {
         <svg class="logo-mark" viewBox="0 0 64 64" width="42" height="42" aria-hidden="true">
           <defs>
             <linearGradient id="lg" x1="0" y1="0" x2="1" y2="1">
-              <stop offset="0" stop-color="#3b82f6"/><stop offset="1" stop-color="#8b5cf6"/>
+              <stop offset="0" stop-color="#3d7bff"/><stop offset="1" stop-color="#18c8e0"/>
             </linearGradient>
           </defs>
           <rect x="2" y="2" width="60" height="60" rx="17" fill="url(#lg)"/>
