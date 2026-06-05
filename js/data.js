@@ -682,6 +682,135 @@ const ARTICLES = [
       "Yine de umut vadeden örnekler vardı: CLOiD adlı robot, yapay zeka ve görüş tabanlı teknolojiyle yemek pişirme ve çamaşır gibi işleri deniyor; iki kollu gövdesi ve tekerlekli tabanıyla otonom hareket edebiliyor.",
       "Kısa vadede robotlar evimize girmese de, sanayi ve depo gibi kontrollü alanlarda hızla yaygınlaşıyorlar. Asıl devrim, yapay zekanın bu robotları gerçek zamanlı 'düşündürmesiyle' gelecek."
     ]
+  },
+  {
+    id: 37,
+    category: "telefon",
+    title: "2026 Telefon Alma Rehberi: Bütçenize Göre Doğru Seçim",
+    summary: "Yeni telefon almak kafa karıştırıcı olabilir. Bu kapsamlı rehberde her bütçe için doğru seçimi, dikkat edilmesi gereken özellikleri ve sık yapılan hataları anlattık.",
+    image: "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=900&q=80",
+    author: "Editör",
+    date: "2026-06-05",
+    readTime: 9,
+    views: 5240,
+    featured: true,
+    tags: ["telefon", "satın alma rehberi", "karşılaştırma"],
+    body: [
+      "Telefon pazarı her geçen yıl daha kalabalık hale geliyor. Onlarca marka, yüzlerce model ve birbirinden iddialı reklamlar arasında doğru kararı vermek giderek zorlaşıyor. Bu rehberde, bütçenize göre nelere odaklanmanız gerektiğini sade bir dille anlatıyoruz.",
+      { h: "Önce İhtiyacınızı Belirleyin" },
+      "En pahalı telefon herkes için en doğru telefon değildir. Telefonu ağırlıklı olarak ne için kullandığınız, hangi özelliklere para vermeniz gerektiğini belirler. Sosyal medya ve mesajlaşma mı, yoksa profesyonel fotoğrafçılık ve oyun mu? Bu soru, bütçenizi en doğru yere yönlendirir.",
+      { img: "https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?w=900&q=80", caption: "Hızlı şarj artık her segmentte; ama pil sağlığı için aşırıya kaçmamak gerekiyor." },
+      { h: "Giriş Segmenti: Akıllı Harcama" },
+      "Bu segmentte amaç, gereksiz özelliklere para vermeden günlük işleri sorunsuz yapan bir cihaz bulmak. Yeterli RAM, akıcı bir ekran ve uzun pil ömrü önceliğiniz olmalı. Kameradan çok pil ve güncelleme desteğine bakın.",
+      { h: "Orta Segment: Fiyat/Performans Tatlı Noktası" },
+      "Çoğu kullanıcı için en mantıklı segment burası. Bu fiyat aralığında artık amiral gemilerine yakın ekranlar, güçlü işlemciler ve tatmin edici kameralar bulabiliyorsunuz. 2026'da orta segment, fiyat/performans dengesinde açık ara kazanan taraf.",
+      { h: "Amiral Gemisi: En İyisini İsteyenlere" },
+      "Eğer en iyi kamerayı, en hızlı performansı ve en uzun yazılım desteğini istiyorsanız üst segment sizin için. Ancak unutmayın: bu segmentte ödediğiniz paranın bir kısmı marka ve prestij için. Gerçekten kullanacağınız özelliklere odaklanın.",
+      { h: "Satın Almadan Önce Kontrol Listesi" },
+      { list: [
+        "Yazılım güncelleme süresi: En az 3-4 yıl güvenlik güncellemesi alıyor mu?",
+        "Pil kapasitesi ve şarj hızı: Gün boyu dayanıyor mu?",
+        "Ekran kalitesi: AMOLED ve yüksek yenileme hızı (120Hz) var mı?",
+        "Depolama: 128 GB minimum; mümkünse 256 GB tercih edin.",
+        "Su/toz dayanıklılığı (IP sertifikası) ve garanti şartları."
+      ] },
+      { quote: "Doğru telefon, en pahalı olan değil; ihtiyaçlarınızı en uzun süre karşılayacak olandır." },
+      "Son olarak, acele etmeyin. Yeni modeller çıktıkça bir önceki neslin fiyatı düşer ve çoğu zaman en akıllı alışveriş, bir önceki yılın amiral gemisini almaktır. İhtiyacınızı netleştirip bu kontrol listesini kullanırsanız, pişman olmayacağınız bir seçim yaparsınız."
+    ]
+  },
+  {
+    id: 38,
+    category: "bilgisayar",
+    title: "Sıfırdan Oyun Bilgisayarı Toplama Rehberi (2026)",
+    summary: "Kendi oyun bilgisayarınızı toplamak göründüğü kadar zor değil ve hazır sistemlere göre çok daha fazla performans sunar. Parça parça, bütçe dostu bir yol haritası hazırladık.",
+    image: "https://images.unsplash.com/photo-1587202372634-32705e3bf49c?w=900&q=80",
+    author: "Editör",
+    date: "2026-06-04",
+    readTime: 11,
+    views: 4610,
+    featured: true,
+    tags: ["oyun bilgisayarı", "donanım", "toplama pc"],
+    body: [
+      "Hazır bir oyun bilgisayarı almak kolaydır; ama kendi sisteminizi toplamak hem daha ucuza daha fazla performans verir hem de tam istediğiniz cihaza sahip olmanızı sağlar. Endişelenmeyin: bu iş, dev bir lego setini birleştirmek kadar mantıklı ilerliyor.",
+      { h: "1. İşlemci (CPU): Sistemin Beyni" },
+      "İşlemci, bilgisayarınızın genel hızını belirler. Oyun için orta-üst seviye bir işlemci çoğu senaryoda fazlasıyla yeterli. Aşırı pahalı modeller daha çok video düzenleme ve yayıncılık gibi işler için anlamlı.",
+      { img: "https://images.unsplash.com/photo-1591488320449-011701bb6704?w=900&q=80", caption: "Ekran kartı, bir oyun bilgisayarının bütçesinin en büyük kısmını oluşturur." },
+      { h: "2. Ekran Kartı (GPU): Oyunun Kalbi" },
+      "Oyun performansında en belirleyici parça ekran kartıdır. Hangi çözünürlükte (1080p, 1440p, 4K) ve kaç FPS hedeflediğinize göre seçim yapın. Bütçenizin en büyük dilimini buraya ayırmanız mantıklı.",
+      { h: "3. RAM ve Depolama" },
+      "2026'da 16 GB RAM rahat bir başlangıç; daha ağır işler için 32 GB ideal. Depolama tarafında ise mutlaka NVMe SSD kullanın — oyunların yükleme süreleri ve sistemin genel akıcılığı buna bağlı.",
+      { h: "4. Anakart, Güç Kaynağı ve Kasa" },
+      "Anakart tüm parçaları birbirine bağlar; işlemcinizle uyumlu olmasına dikkat edin. Güç kaynağında (PSU) ucuza kaçmayın — kaliteli ve yeterli watt'a sahip bir PSU, tüm sistemin güvenliğidir. Kasa ise hava akışı (soğutma) ve estetik için önemli.",
+      { h: "Toplarken Dikkat Edilecekler" },
+      { list: [
+        "Parça uyumluluğunu önceden kontrol edin (işlemci-anakart soketi, RAM tipi).",
+        "Güç kaynağının watt'ı tüm sisteme yetmeli; hesaplama araçlarını kullanın.",
+        "Statik elektriğe karşı topraklanın; parçalara metal kenarlardan tutun.",
+        "İlk açılışta tek ekran kartı, tek RAM ile test edin.",
+        "Termal macunu unutmayın (çoğu soğutucuda hazır gelir)."
+      ] },
+      { quote: "İyi bir güç kaynağı ve yeterli soğutma, en az ekran kartı kadar önemlidir — çünkü performansı sürdürülebilir kılan onlardır." },
+      "İlk kez topluyorsanız acele etmeyin, her adımı bir videoyla eşleştirin. Birkaç saatlik bir uğraşın sonunda, kendi ellerinizle kurduğunuz ve istediğiniz an yükseltebileceğiniz bir oyun makinesine sahip olacaksınız."
+    ]
+  },
+  {
+    id: 39,
+    category: "oyun",
+    title: "2026'nın En Çok Beklenen Oyunları",
+    summary: "Bu yıl oyuncuları heyecanlandıran büyük yapımlardan sürpriz bağımsız oyunlara kadar, takvimine eklemen gereken en dikkat çekici çıkışları derledik.",
+    image: "https://images.unsplash.com/photo-1493711662062-fa541adb3fc8?w=900&q=80",
+    author: "Editör",
+    date: "2026-06-03",
+    readTime: 7,
+    views: 3920,
+    featured: false,
+    tags: ["oyun", "çıkış takvimi", "2026"],
+    body: [
+      "2026, oyun dünyası için yoğun bir yıl olacağa benziyor. Hem dev stüdyoların uzun süredir beklenen devam oyunları hem de yaratıcılığıyla öne çıkan bağımsız yapımlar bu yıl raflarda yerini alıyor. İşte radarında olması gerekenler.",
+      { h: "Büyük Bütçeli Yapımlar" },
+      "Büyük stüdyolar bu yıl görsel sınırları zorlayan açık dünya oyunları ve sinematik hikaye odaklı yapımlarla geliyor. Yeni nesil donanımların gücünü tam kullanan bu oyunlar, grafik kalitesinde çıtayı yükseltiyor.",
+      { img: "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=900&q=80", caption: "Bulut oyun servisleri sayesinde büyük yapımlar artık güçlü donanım olmadan da oynanabiliyor." },
+      { h: "Bağımsız (Indie) İnciler" },
+      "Asıl sürprizler çoğu zaman küçük ekiplerden geliyor. Özgün oynanış mekanikleri ve cesur sanat yönetimiyle öne çıkan bağımsız oyunlar, bu yıl da büyük yapımlara güçlü bir alternatif sunuyor. Üstelik çok daha uygun fiyatlılar.",
+      { h: "Mobil ve Bulut Tarafı" },
+      "Konsol kalitesindeki oyunlar artık telefonlarda ve bulut üzerinden de oynanabiliyor. Bu yıl pek çok büyük yapım, aynı anda birden fazla platformda çıkış yaparak 'nerede istersen orada oyna' anlayışını güçlendiriyor.",
+      { quote: "Bu yılın en büyük kazananı, hangi cihazda olursa olsun oyununa kaldığı yerden devam edebilen oyuncular olacak." },
+      "Hangi türü seviyor olursanız olun, 2026'nın çıkış takvimi oldukça dolu. Cüzdanınızı korumak için indirimleri beklemek ve oyunları çıkıştan sonra birkaç güncelleme geçene kadar izlemek her zaman akıllıca bir strateji."
+    ]
+  },
+  {
+    id: 40,
+    category: "yapay-zeka",
+    title: "Günlük Hayatta Yapay Zeka: İşinizi Kolaylaştıracak 8 Pratik Kullanım",
+    summary: "Yapay zeka artık sadece teknoloji devlerinin oyuncağı değil. Doğru kullanıldığında zamandan tasarruf ettiren, gündelik hayatı kolaylaştıran 8 somut örneği inceledik.",
+    image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=900&q=80",
+    author: "Editör",
+    date: "2026-06-02",
+    readTime: 8,
+    views: 4480,
+    featured: true,
+    tags: ["yapay zeka", "üretkenlik", "günlük hayat"],
+    body: [
+      "Yapay zeka son birkaç yılda laboratuvarlardan çıkıp cebimize girdi. Artık fotoğraf düzenlemeden e-posta yazmaya, dil öğrenmeden sağlık takibine kadar pek çok alanda sessizce hayatımızı kolaylaştırıyor. İşte günlük hayatta gerçekten işe yarayan kullanımlar.",
+      { h: "1. Yazışma ve Metin Üretimi" },
+      "E-posta taslakları, özetler ve metin düzeltme gibi işlerde yapay zeka ciddi zaman kazandırıyor. Uzun bir belgeyi saniyeler içinde özetletmek, artık herkesin erişebildiği bir kolaylık.",
+      { img: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=900&q=80", caption: "Üretken yapay zeka, metinden görsele kadar geniş bir alanda yaratıcı işleri hızlandırıyor." },
+      { h: "2. Fotoğraf ve Video Düzenleme" },
+      "Telefonunuzdaki yapay zeka; gereksiz nesneleri silmenizi, fotoğrafları iyileştirmenizi ve videoları otomatik kurgulamanızı sağlıyor. Eskiden profesyonel yazılım gerektiren işler artık birkaç dokunuş.",
+      { h: "3. Kişisel Asistan ve Planlama" },
+      "Takviminizi düzenlemek, hatırlatıcılar kurmak ve karmaşık soruları yanıtlamak için yapay zeka asistanları giderek daha yetenekli. Sesli komutlarla pek çok işi eller serbest halledebiliyorsunuz.",
+      { h: "4. Öğrenme ve Çeviri" },
+      "Yeni bir dil öğrenmek veya yabancı bir metni anında çevirmek hiç bu kadar kolay olmamıştı. Yapay zeka, kişisel bir öğretmen gibi size özel açıklamalar sunabiliyor.",
+      { h: "Peki Nelere Dikkat Etmeli?" },
+      { list: [
+        "Hassas kişisel verilerinizi gelişigüzel paylaşmayın.",
+        "Yapay zekanın verdiği bilgileri, özellikle sağlık ve hukuk gibi konularda mutlaka doğrulayın.",
+        "Cihaz üstünde çalışan (verinizi buluta göndermeyen) seçenekleri tercih edin.",
+        "Üretilen içeriği olduğu gibi değil, bir taslak olarak kullanın."
+      ] },
+      { quote: "Yapay zeka bir sihir değil, güçlü bir araçtır. Değeri, onu ne kadar bilinçli kullandığınızla ortaya çıkar." },
+      "Özetle, yapay zekayı hayatınıza katmak için teknoloji uzmanı olmanıza gerek yok. Küçük günlük işlerden başlayıp güvendiğiniz araçlarla ilerlerseniz, kısa sürede ne kadar çok zaman kazandığınızı fark edeceksiniz."
+    ]
   }
 ];
 

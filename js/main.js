@@ -76,16 +76,22 @@ function renderHeader(activeSlug) {
   <header class="site-header">
     <div class="container header-inner">
       <a class="logo" href="index.html">
-        <svg class="logo-mark" viewBox="0 0 64 64" width="26" height="26" aria-hidden="true">
-          <defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1">
-            <stop offset="0" stop-color="#3b82f6"/><stop offset="1" stop-color="#8b5cf6"/>
-          </linearGradient></defs>
-          <rect width="64" height="64" rx="14" fill="currentColor" opacity="0.08"/>
-          <polyline points="8,34 20,34 26,18 34,48 40,28 46,28 50,24 56,34"
-            fill="none" stroke="url(#lg)" stroke-width="5"
-            stroke-linecap="round" stroke-linejoin="round"/>
+        <svg class="logo-mark" viewBox="0 0 64 64" width="30" height="30" aria-hidden="true">
+          <defs>
+            <linearGradient id="lg" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#3b82f6"/><stop offset="1" stop-color="#8b5cf6"/>
+            </linearGradient>
+          </defs>
+          <g stroke="url(#lg)" stroke-width="3" stroke-linecap="round">
+            <line x1="22" y1="5" x2="22" y2="14"/><line x1="32" y1="5" x2="32" y2="14"/><line x1="42" y1="5" x2="42" y2="14"/>
+            <line x1="22" y1="50" x2="22" y2="59"/><line x1="32" y1="50" x2="32" y2="59"/><line x1="42" y1="50" x2="42" y2="59"/>
+            <line x1="5" y1="22" x2="14" y2="22"/><line x1="5" y1="32" x2="14" y2="32"/><line x1="5" y1="42" x2="14" y2="42"/>
+            <line x1="50" y1="22" x2="59" y2="22"/><line x1="50" y1="32" x2="59" y2="32"/><line x1="50" y1="42" x2="59" y2="42"/>
+          </g>
+          <rect x="14" y="14" width="36" height="36" rx="9" fill="url(#lg)"/>
+          <path d="M23 41 V25 l9 8 9-8 V41" fill="none" stroke="#fff" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>
-        Tekno<span>mecra</span><span class="dot">.</span>
+        Tekno<span>mecra</span>
       </a>
       <div class="search-box">
         <input type="text" id="searchInput" placeholder="Haber ara..." autocomplete="off">
@@ -158,21 +164,34 @@ function renderHome() {
 
   const sorted = getAllArticlesSorted();
   const featured = sorted.filter(a => a.featured);
-  const main = featured[0] || sorted[0];
-  const sideArticles = featured.slice(1, 4);
-  const catMain = getCategory(main.category);
+  // Manşet için öne çıkan haberler (en fazla 5); yoksa en yeni haberler
+  const slides = (featured.length ? featured : sorted).slice(0, 5);
+  const slideIds = slides.map(a => a.id);
+  // Yan sütun: manşette olmayan en yeni 3 haber
+  const sideArticles = sorted.filter(a => !slideIds.includes(a.id)).slice(0, 3);
 
-  // Hero
+  // Hero (otomatik değişen carousel)
+  const slidesHTML = slides.map((a, i) => {
+    const c = getCategory(a.category);
+    return `
+      <a class="hero-slide ${i === 0 ? "active" : ""}" href="article.html?id=${a.id}">
+        <img src="${a.image}" alt="${a.title}">
+        <div class="hero-overlay">
+          <span class="chip" style="background:${c.color}cc;color:#fff">${c.icon} ${c.name}</span>
+          <h2>${a.title}</h2>
+          <p>${a.summary}</p>
+        </div>
+      </a>`;
+  }).join("");
+  const dotsHTML = slides.map((_, i) =>
+    `<button class="hero-dot ${i === 0 ? "active" : ""}" type="button" aria-label="Manşet ${i + 1}"></button>`).join("");
+
   document.getElementById("hero").innerHTML = `
     <div class="container hero-grid">
-      <a class="hero-main" href="article.html?id=${main.id}">
-        <img src="${main.image}" alt="${main.title}">
-        <div class="hero-overlay">
-          <span class="chip" style="background:${catMain.color}33;color:#fff">${catMain.icon} ${catMain.name}</span>
-          <h2>${main.title}</h2>
-          <p>${main.summary}</p>
-        </div>
-      </a>
+      <div class="hero-main hero-carousel" id="heroCarousel">
+        ${slidesHTML}
+        <div class="hero-dots">${dotsHTML}</div>
+      </div>
       <div class="hero-side">
         ${sideArticles.map(a => `
           <a class="mini-card" href="article.html?id=${a.id}">
@@ -182,6 +201,7 @@ function renderHome() {
           </a>`).join("")}
       </div>
     </div>`;
+  initHeroCarousel();
 
   // Son haberler + yan sütun
   const popular = getPopularArticles(5);
@@ -233,6 +253,34 @@ function renderHome() {
   afterRender();
 }
 
+/* ---- Manşet carousel (otomatik değişen haberler) ---- */
+function initHeroCarousel() {
+  const root = document.getElementById("heroCarousel");
+  if (!root) return;
+  const slides = [...root.querySelectorAll(".hero-slide")];
+  const dots = [...root.querySelectorAll(".hero-dot")];
+  if (slides.length < 2) return;
+
+  let i = 0, timer = null;
+  const show = (n) => {
+    slides[i].classList.remove("active");
+    if (dots[i]) dots[i].classList.remove("active");
+    i = (n + slides.length) % slides.length;
+    slides[i].classList.add("active");
+    if (dots[i]) dots[i].classList.add("active");
+  };
+  const start = () => { timer = setInterval(() => show(i + 1), 5000); };
+  const stop = () => { clearInterval(timer); };
+
+  dots.forEach((d, idx) => d.addEventListener("click", (e) => {
+    e.preventDefault(); e.stopPropagation();
+    stop(); show(idx); start();
+  }));
+  root.addEventListener("mouseenter", stop);
+  root.addEventListener("mouseleave", start);
+  start();
+}
+
 /* ---- Bülten formu ---- */
 function initNewsletter() {
   const form = document.getElementById("newsletterForm");
@@ -274,6 +322,28 @@ function renderCategory() {
   afterRender();
 }
 
+/* ---- Haber gövdesini render et (metin + ara başlık + görsel + alıntı) ----
+   body elemanları:
+   - "metin"                       → paragraf
+   - { h: "Ara Başlık" }           → ara başlık
+   - { img: "url", caption: "..." } → görsel (alt yazı opsiyonel)
+   - { quote: "..." }              → alıntı kutusu
+   - { list: ["...", "..."] }      → madde listesi
+*/
+function renderBody(body) {
+  return body.map(item => {
+    if (typeof item === "string") return `<p>${item}</p>`;
+    if (item.h) return `<h2 class="article-h2">${item.h}</h2>`;
+    if (item.img) return `<figure class="article-fig">
+        <img src="${item.img}" alt="${item.caption || ""}" loading="lazy">
+        ${item.caption ? `<figcaption>${item.caption}</figcaption>` : ""}
+      </figure>`;
+    if (item.quote) return `<blockquote class="article-quote">${item.quote}</blockquote>`;
+    if (item.list) return `<ul class="article-list">${item.list.map(li => `<li>${li}</li>`).join("")}</ul>`;
+    return "";
+  }).join("");
+}
+
 /* ---- Sayfa: Haber Detayı ---- */
 function renderArticle() {
   const a = getArticleById(getParam("id"));
@@ -304,8 +374,8 @@ function renderArticle() {
       </div>
       <div class="article-hero"><img src="${a.image}" alt="${a.title}"></div>
       <div class="article-body">
-        <p style="font-size:1.18rem;color:var(--text);font-weight:500">${a.summary}</p>
-        ${a.body.map(p => `<p>${p}</p>`).join("")}
+        <p class="article-lead">${a.summary}</p>
+        ${renderBody(a.body)}
       </div>
       <div class="article-tags">${a.tags.map(t => `<span class="tag">#${t}</span>`).join("")}</div>
       <div class="action-bar">
