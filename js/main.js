@@ -76,20 +76,17 @@ function renderHeader(activeSlug) {
   <header class="site-header">
     <div class="container header-inner">
       <a class="logo" href="index.html">
-        <svg class="logo-mark" viewBox="0 0 64 64" width="30" height="30" aria-hidden="true">
+        <svg class="logo-mark" viewBox="0 0 64 64" width="42" height="42" aria-hidden="true">
           <defs>
             <linearGradient id="lg" x1="0" y1="0" x2="1" y2="1">
               <stop offset="0" stop-color="#3b82f6"/><stop offset="1" stop-color="#8b5cf6"/>
             </linearGradient>
           </defs>
-          <g stroke="url(#lg)" stroke-width="3" stroke-linecap="round">
-            <line x1="22" y1="5" x2="22" y2="14"/><line x1="32" y1="5" x2="32" y2="14"/><line x1="42" y1="5" x2="42" y2="14"/>
-            <line x1="22" y1="50" x2="22" y2="59"/><line x1="32" y1="50" x2="32" y2="59"/><line x1="42" y1="50" x2="42" y2="59"/>
-            <line x1="5" y1="22" x2="14" y2="22"/><line x1="5" y1="32" x2="14" y2="32"/><line x1="5" y1="42" x2="14" y2="42"/>
-            <line x1="50" y1="22" x2="59" y2="22"/><line x1="50" y1="32" x2="59" y2="32"/><line x1="50" y1="42" x2="59" y2="42"/>
-          </g>
-          <rect x="14" y="14" width="36" height="36" rx="9" fill="url(#lg)"/>
-          <path d="M23 41 V25 l9 8 9-8 V41" fill="none" stroke="#fff" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <rect x="2" y="2" width="60" height="60" rx="17" fill="url(#lg)"/>
+          <rect x="2" y="2" width="60" height="60" rx="17" fill="none" stroke="#ffffff" stroke-opacity="0.22" stroke-width="1.5"/>
+          <text x="32" y="33" text-anchor="middle" dominant-baseline="central"
+                font-family="'Segoe UI', system-ui, Arial, sans-serif" font-weight="800"
+                font-size="26" letter-spacing="-1.5" fill="#ffffff">TM</text>
         </svg>
         Tekno<span>mecra</span>
       </a>
