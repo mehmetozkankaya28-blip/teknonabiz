@@ -34,6 +34,9 @@ const ARTICLES = [
       "Yaptığımız testlerde öne çıkan en büyük fark kamera tarafında ortaya çıktı. Gece çekimlerinde yapay zeka destekli görüntü işleme, donanımdan çok daha belirleyici hale geldi.",
       "Pil ömründe ise yeni nesil silikon-karbon bataryalar oyunu değiştiriyor. Aynı fiziksel boyutta %15'e varan kapasite artışı, günlük kullanımda gözle görülür bir rahatlık sağlıyor.",
       "Sonuç olarak: en pahalı model her zaman en iyi seçim değil. Orta-üst segment, fiyat/performans dengesinde bu yıl açık ara kazanan taraf."
+    ],
+    sources: [
+      { name: "Wikipedia — Akıllı telefon", url: "https://tr.wikipedia.org/wiki/Ak%C4%B1ll%C4%B1_telefon" }
     ]
   },
   {
@@ -52,6 +55,9 @@ const ARTICLES = [
       "Katlanabilir telefonlar ilk çıktıklarında daha çok bir gösteriş ürünüydü. Bugün ise dayanıklılık ve fiyat açısından çok daha makul bir noktadalar.",
       "Ekran ortasındaki kırışıklık artık neredeyse hissedilmiyor. Menteşe mekanizmaları toz ve suya karşı belirgin biçimde dayanıklı hale geldi.",
       "Yine de katlanabilir cihazlar hâlâ standart telefonlardan daha ağır ve daha pahalı. Karar vermeden önce büyük ekrana gerçekten ihtiyacınız olup olmadığını düşünün."
+    ],
+    sources: [
+      { name: "Wikipedia — Akıllı telefon", url: "https://tr.wikipedia.org/wiki/Ak%C4%B1ll%C4%B1_telefon" }
     ]
   },
   {
@@ -70,6 +76,9 @@ const ARTICLES = [
       "Hızlı şarj teknolojisi artık orta segment telefonlara da indi. 100W üzeri şarj desteği, bir zamanlar yalnızca amiral gemilerine özeldi.",
       "Testlerimizde bazı modeller yarım saatin altında tam dolarken, kısa bir kahve molası bile günü kurtarmaya yetiyor.",
       "Ancak dikkat: çok yüksek hızlı şarj uzun vadede pil sağlığını etkileyebiliyor. Üreticilerin sunduğu 'pil koruma' modlarını kullanmanızı öneririz."
+    ],
+    sources: [
+      { name: "Wikipedia — Akıllı telefon", url: "https://tr.wikipedia.org/wiki/Ak%C4%B1ll%C4%B1_telefon" }
     ]
   },
   {
@@ -88,6 +97,9 @@ const ARTICLES = [
       "Modern tabletler artık dizüstü bilgisayarlara meydan okuyacak işlemci gücüne sahip. Ancak donanım kadar yazılım deneyimi de önemli.",
       "Masaüstü tarzı pencere yönetimi ve harici monitör desteği geldikten sonra, tabletler ofis işleri için ciddi bir alternatif haline geldi.",
       "Yine de yazılım geliştirme veya ağır video düzenleme gibi işlerde tam teşekküllü bir işletim sistemi hâlâ daha esnek. Karar tamamen iş akışınıza bağlı."
+    ],
+    sources: [
+      { name: "Wikipedia — Tablet bilgisayar", url: "https://tr.wikipedia.org/wiki/Tablet_bilgisayar" }
     ]
   },
   {
@@ -106,6 +118,9 @@ const ARTICLES = [
       "Çocuğunuz için tablet alırken en pahalı model değil, en güvenli ve dayanıklı model önemli.",
       "Sağlam bir kılıf, güçlü ebeveyn kontrolleri ve ekran süresi sınırlama özellikleri olmazsa olmaz.",
       "Ayrıca cihazın uzun yazılım desteği alması, güvenlik güncellemeleri açısından kritik. Ucuz ama desteksiz cihazlardan kaçının."
+    ],
+    sources: [
+      { name: "Wikipedia — Tablet bilgisayar", url: "https://tr.wikipedia.org/wiki/Tablet_bilgisayar" }
     ]
   },
   {
@@ -124,6 +139,9 @@ const ARTICLES = [
       "Dizüstü bilgisayar pazarında ARM tabanlı işlemciler, sundukları olağanüstü pil ömrüyle artık ana akım haline geldi.",
       "x86 tarafı ise ham performans ve geniş yazılım uyumluluğuyla hâlâ güçlü. Özellikle eski uygulamalar ve oyunlarda avantajını koruyor.",
       "Çoğu kullanıcı için ARM tabanlı bir dizüstü, sessiz çalışması ve uzun pil ömrüyle daha keyifli bir deneyim sunuyor. Profesyonel iş yükleri için ise durum değişebilir."
+    ],
+    sources: [
+      { name: "Wikipedia — ARM mimarisi", url: "https://tr.wikipedia.org/wiki/ARM_mimarisi" }
     ]
   },
   {
@@ -142,6 +160,9 @@ const ARTICLES = [
       "Yavaşlayan bir bilgisayarı canlandırmanın en uygun maliyetli yolu hâlâ SSD'ye geçmek.",
       "Fiyatların son dönemde düşmesiyle birlikte, yüksek kapasiteli NVMe diskler artık çok daha erişilebilir.",
       "Açılış süreleri, program yükleme ve genel akıcılıkta SSD; işlemci yükseltmesinden bile daha hissedilir bir fark yaratıyor."
+    ],
+    sources: [
+      { name: "Wikipedia — Bilişim teknolojileri", url: "https://tr.wikipedia.org/wiki/Bili%C5%9Fim_teknolojileri" }
     ]
   },
   {
@@ -160,6 +181,9 @@ const ARTICLES = [
       "Yeni nesil akıllı saatler, bir zamanlar yalnızca klinik cihazlarda bulunan sağlık ölçümlerini bileğinize taşıyor.",
       "Uyku apnesi tespiti ve düzensiz kalp ritmi uyarıları gibi özellikler, birçok kişinin erken teşhis için doktora başvurmasını sağladı.",
       "Ancak bu cihazlar tıbbi teşhis aracı değil. Verileri bir ipucu olarak görmek doğru; kesin tanı için mutlaka bir hekime danışılmalı."
+    ],
+    sources: [
+      { name: "Wikipedia — Akıllı saat", url: "https://tr.wikipedia.org/wiki/Ak%C4%B1ll%C4%B1_saat" }
     ]
   },
   {
@@ -178,6 +202,9 @@ const ARTICLES = [
       "Akıllı yüzükler, sağlık takibini çok daha küçük ve göze batmayan bir forma taşıyor.",
       "Özellikle uyku ve toparlanma takibinde, parmaktan alınan ölçümler şaşırtıcı derecede tutarlı sonuçlar veriyor.",
       "Ekranı olmadığı için tüm verileri telefon uygulamasından takip ediyorsunuz. Pil ömrü ise akıllı saatlerin çok önünde."
+    ],
+    sources: [
+      { name: "Wikipedia — Giyilebilir teknoloji", url: "https://tr.wikipedia.org/wiki/Giyilebilir_teknoloji" }
     ]
   },
   {
@@ -196,6 +223,9 @@ const ARTICLES = [
       "Elektrikli araçların önündeki en büyük engel olan menzil kaygısı, hızla tarihe karışıyor.",
       "Katı hal batarya teknolojisi hem daha yüksek menzil hem de çok daha hızlı şarj süreleri vaat ediyor. 10 dakikada %80 şarj artık bir hayal değil.",
       "Şarj istasyonu ağının yaygınlaşmasıyla birlikte, uzun yol kaygısı çoğu sürücü için anlamını yitiriyor."
+    ],
+    sources: [
+      { name: "Wikipedia — Elektrikli otomobil", url: "https://tr.wikipedia.org/wiki/Elektrikli_otomobil" }
     ]
   },
   {
@@ -214,6 +244,9 @@ const ARTICLES = [
       "Otonom sürüş 5 seviyeye ayrılıyor ve bugün satılan araçların çoğu hâlâ Seviye 2'de; yani sürücünün dikkatini gerektiriyor.",
       "Pazarlama dilinde 'tam otonom' gibi ifadeler kullanılsa da, yasal olarak direksiyonun başında uyanık olmanız gerekiyor.",
       "Teknoloji hızla ilerliyor; ancak güvenlik açısından sistemin sınırlarını bilmek hayati önem taşıyor."
+    ],
+    sources: [
+      { name: "Wikipedia — Yapay zekâ", url: "https://tr.wikipedia.org/wiki/Yapay_zek%C3%A2" }
     ]
   },
   {
@@ -232,6 +265,9 @@ const ARTICLES = [
       "Sosyal medya platformları, ne göreceğinizi belirleyen karmaşık öneri algoritmaları kullanıyor.",
       "Bu sistemler, etkileşim süresini en üst düzeye çıkarmak için tasarlandı. Bu da bazen sansasyonel içeriğin öne çıkmasına neden oluyor.",
       "Akışınızı bilinçli yönetmek mümkün: takip ettiğiniz hesapları gözden geçirmek ve 'ilgilenmiyorum' geri bildirimini kullanmak fark yaratıyor."
+    ],
+    sources: [
+      { name: "Wikipedia — Sosyal medya", url: "https://tr.wikipedia.org/wiki/Sosyal_medya" }
     ]
   },
   {
@@ -250,6 +286,9 @@ const ARTICLES = [
       "Dijital detoks, sosyal medyayı tamamen bırakmak zorunda olduğunuz anlamına gelmiyor.",
       "Bildirimleri kısmak, gri tonlama modunu denemek ve uygulama süre sınırları koymak ciddi fark yaratıyor.",
       "Amaç teknolojiyi düşmanlaştırmak değil; onu bilinçli kullanarak hayatınızın kontrolünü elinizde tutmak."
+    ],
+    sources: [
+      { name: "Wikipedia — Sosyal medya", url: "https://tr.wikipedia.org/wiki/Sosyal_medya" }
     ]
   },
   {
@@ -268,6 +307,9 @@ const ARTICLES = [
       "Telefon ekranında geçirdiğimiz süre arttıkça, odaklanmayı kolaylaştıran uygulamalara olan ilgi de büyüyor.",
       "Bu hafta seçtiğimiz uygulamalar, abartılı vaatler yerine sade ve etkili çözümler sunmasıyla öne çıkıyor.",
       "En önemlisi: hepsi gizliliğe saygılı ve gereksiz veri toplamıyor. İndirmeden önce izin taleplerini kontrol etmeyi unutmayın."
+    ],
+    sources: [
+      { name: "Wikipedia — Mobil uygulama", url: "https://tr.wikipedia.org/wiki/Mobil_uygulama" }
     ]
   },
   {
@@ -286,6 +328,9 @@ const ARTICLES = [
       "İçerik üreticiliği yükselişteyken, telefonla kaliteli video düzenleme her zamankinden kolay.",
       "Test ettiğimiz uygulamalar arasında filigran bırakmayan ve katman desteği sunan birkaç güçlü seçenek öne çıktı.",
       "Ücretsiz sürümlerin sınırlarını bilmek önemli; ancak çoğu kullanıcının ihtiyacı için fazlasıyla yeterliler."
+    ],
+    sources: [
+      { name: "Wikipedia — Mobil uygulama", url: "https://tr.wikipedia.org/wiki/Mobil_uygulama" }
     ]
   },
   {
@@ -304,6 +349,9 @@ const ARTICLES = [
       "Bulut oyun servisleri, pahalı bir konsol veya bilgisayar olmadan en yeni oyunları oynama vaadiyle giderek popülerleşiyor.",
       "Yaptığımız gecikme testlerinde, iyi bir internet bağlantısıyla deneyim oldukça akıcıydı. Ancak rekabetçi oyunlarda her milisaniye önemli.",
       "Konsollar henüz tahtını bırakmıyor; ama günlük oyuncular için bulut, ciddi ve uygun maliyetli bir alternatif sunuyor."
+    ],
+    sources: [
+      { name: "Wikipedia — Video oyunu", url: "https://tr.wikipedia.org/wiki/Video_oyunu" }
     ]
   },
   {
@@ -322,6 +370,9 @@ const ARTICLES = [
       "Bağımsız (indie) oyunlar, taze fikirleri ve risk alabilen tasarımlarıyla son yıllarda parlıyor.",
       "Büyük bütçeli yapımlar görsellikte önde olsa da, oynanış yeniliği ve hikaye anlatımında çoğu zaman indie oyunlar kazanıyor.",
       "Üstelik çok daha uygun fiyatlı olmaları, oyuncuların yeni türleri keşfetmesini kolaylaştırıyor."
+    ],
+    sources: [
+      { name: "Wikipedia — Video oyunu", url: "https://tr.wikipedia.org/wiki/Video_oyunu" }
     ]
   },
   {
@@ -340,6 +391,9 @@ const ARTICLES = [
       "Yapay zeka özelliklerinin giderek daha fazlası, buluta veri göndermeden doğrudan cihazınızda çalışıyor.",
       "Bunun en büyük avantajı gizlilik: fotoğraflarınız ve mesajlarınız telefonunuzdan çıkmadan işleniyor.",
       "Ayrıca internet bağlantısı olmadan da çalışabilmesi ve anında yanıt vermesi, kullanıcı deneyimini belirgin biçimde iyileştiriyor."
+    ],
+    sources: [
+      { name: "Wikipedia — Yapay zekâ", url: "https://tr.wikipedia.org/wiki/Yapay_zek%C3%A2" }
     ]
   },
   {
@@ -358,6 +412,9 @@ const ARTICLES = [
       "Yapay zeka ile üretilen görseller hızla yaygınlaşırken, telif hakkı soruları da büyüyor.",
       "Modellerin hangi verilerle eğitildiği ve sanatçıların eserlerinin izinsiz kullanılıp kullanılmadığı tartışmanın merkezinde.",
       "Düzenleyiciler yeni kurallar üzerinde çalışıyor; bu alanda hem yaratıcılar hem de kullanıcılar için belirsizlik sürüyor."
+    ],
+    sources: [
+      { name: "Wikipedia — Yapay zekâ", url: "https://tr.wikipedia.org/wiki/Yapay_zek%C3%A2" }
     ]
   },
   {
@@ -471,6 +528,9 @@ const ARTICLES = [
       "Bu sayede bir videonun içeriğine duyarlı küçük resimler (thumbnail) ve bilgi grafikleri (infografik) otomatik olarak oluşturulabiliyor.",
       "İçerik üreticileri için bu, üretim sürecini ciddi biçimde hızlandıran bir araç. Bir videodan tutarlı görseller türetmek artık dakikalar sürüyor.",
       "Yine de telif ve özgünlük tartışmaları sürüyor; üretilen içeriğin kaynağının şeffaf olması giderek daha önemli hale geliyor."
+    ],
+    sources: [
+      { name: "AIapps — Haziran 2026 yapay zeka haberleri", url: "https://www.aiapps.com/blog/ai-news-breakthroughs-launches-trends-must-read/" }
     ]
   },
   {
@@ -478,7 +538,7 @@ const ARTICLES = [
     category: "oyun",
     title: "El Konsolu Çağı: Legion Go 2, MSI ve Acer Sahneye Çıkıyor",
     summary: "Lenovo Legion Go 2, yeni MSI el konsolu ve Acer Predator Atlas 8 ile taşınabilir oyun pazarı her zamankinden hareketli.",
-    image: "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=900&q=80",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Steam_Deck_%28front%29.png/1280px-Steam_Deck_%28front%29.png",
     author: "Editör",
     date: "2026-06-01",
     readTime: 6,
@@ -490,6 +550,9 @@ const ARTICLES = [
       "Lenovo, SteamOS tabanlı ikinci el konsolu Legion Go 2'yi 8.8 inç ekran ve Ryzen Z2 Extreme işlemciyle Haziran'da piyasaya sürüyor. MSI'ın yeni el konsolu da bu ay tanıtılıyor.",
       "Acer ise Predator Atlas 8 ile pazara giriyor; Intel'in yeni özel taşınabilir oyun platformuna dayanan ilk cihazlardan biri olması dikkat çekiyor.",
       "Bu cihazların fiyatları hatırı sayılır seviyede; yine de PC oyunlarını cebinizde taşıma fikri, oyuncular için giderek daha cazip hale geliyor."
+    ],
+    sources: [
+      { name: "Dexerto — 2026 el konsolları", url: "https://www.dexerto.com/tech/upcoming-handheld-gaming-consoles-2169315/" }
     ]
   },
   {
@@ -509,6 +572,10 @@ const ARTICLES = [
       "R2, tek şarjla yaklaşık 530 km'ye varan menzil sunarken, 0'dan 100 km/s hıza 3.6 saniyede ulaşabiliyor. Bu, segmentinde güçlü bir performans.",
       "Markanın daha erişilebilir bir fiyatla daha geniş bir kitleye ulaşma stratejisinin merkezinde bu model yer alıyor.",
       "Elektrikli SUV pazarındaki rekabet kızışırken, R2'nin menzil ve performans dengesi onu öne çıkaran en önemli unsurlardan biri."
+    ],
+    sources: [
+      { name: "Top Electric SUV — 2026 elektrikli araçlar", url: "https://topelectricsuv.com/electric-cars/2026-2027-electric-cars-upcoming/" },
+      { name: "Consumer Reports — Yeni elektrikli araçlar", url: "https://www.consumerreports.org/cars/hybrids-evs/hot-new-electric-cars-are-coming-soon-a1000197429/" }
     ]
   },
   {
@@ -528,6 +595,9 @@ const ARTICLES = [
       "Geleneksel marka algısını değiştirmeyi hedefleyen bu model, keskin hatları ve gelecekçi tasarımıyla öne çıkıyor.",
       "Elektrikli spor otomobil segmenti, performansı çevre dostu teknolojiyle buluşturmak isteyen sürücüler için hızla büyüyor.",
       "Seri üretim detayları netleştikçe, fiyat ve teknik özelliklerin de açıklanması bekleniyor."
+    ],
+    sources: [
+      { name: "Electrek — Kia elektrikli spor otomobil", url: "https://electrek.co/2026/05/11/kias-cyber-inspired-electric-sports-car-is-90-production-ready/" }
     ]
   },
   {
@@ -547,6 +617,9 @@ const ARTICLES = [
       "12.2 inç 2.8K OLED ekran, içerik tüketimi ve çizim için canlı renkler sunuyor. MediaTek Dimensity 8300 işlemci ise dengeli bir performans vaat ediyor.",
       "9000 mAh kapasiteli batarya, uzun kullanım süreleri için iddialı bir rakam. Asus bu cihazla doğrudan Samsung'un orta-üst segment tabletlerini hedefliyor.",
       "Fiyatlandırma rekabetçi olursa, tablet pazarındaki seçenekler kullanıcılar lehine artacak gibi görünüyor."
+    ],
+    sources: [
+      { name: "TechAdvisor — Asus Pad ve VivoWatch 6 Plus", url: "https://www.techadvisor.com/article/3155480/asus-pad-and-vivowatch-6-plus-announced.html" }
     ]
   },
   {
@@ -554,7 +627,7 @@ const ARTICLES = [
     category: "bilgisayar",
     title: "Microsoft Surface Pro 12 ve Surface Laptop 8 Geliyor",
     summary: "Yeni nesil Surface cihazları Mayıs sonu–Haziran arasında raflarda. Snapdragon X2 gecikme söylentileri ne anlama geliyor?",
-    image: "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=900&q=80",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Microsoft_Surface_Pro.jpg/1280px-Microsoft_Surface_Pro.jpg",
     author: "Editör",
     date: "2026-05-30",
     readTime: 5,
@@ -566,6 +639,9 @@ const ARTICLES = [
       "Bu cihazlar, ARM tabanlı işlemcilerin sunduğu uzun pil ömrü ve sessiz çalışma avantajlarını Windows ekosistemine taşımayı sürdürüyor.",
       "Ancak yeni nesil Snapdragon X2 yonga setiyle ilgili gecikme söylentileri, bazı modellerin lansman takvimini etkileyebilir.",
       "2'si 1 arada form faktörünü sevenler için Surface Pro 12, hâlâ Windows tabletlerin referans noktası olmaya aday."
+    ],
+    sources: [
+      { name: "Notebookcheck — Surface Pro & Laptop takvimi", url: "https://www.notebookcheck.net/New-Microsoft-Surface-Pro-and-Surface-Laptop-release-timings-detailed-with-Snapdragon-X2-delay-rumoured.1276722.0.html" }
     ]
   },
   {
@@ -585,6 +661,9 @@ const ARTICLES = [
       "Yoga Pro 7a ve Legion 7a gibi modeller Haziran 2026'da satışa çıkıyor. Legion serisi oyun performansına, Yoga serisi ise taşınabilir üretkenliğe odaklanıyor.",
       "Cihazlardaki yapay zeka hızlandırıcıları, görüntü düzenlemeden gerçek zamanlı çeviriye kadar pek çok işi yerel olarak hızlandırıyor.",
       "Fiyatların üst segmentte konumlanması, bu cihazları daha çok profesyonel kullanıcılara yönlendiriyor."
+    ],
+    sources: [
+      { name: "Lenovo StoryHub — MWC 2026", url: "https://news.lenovo.com/pressroom/press-releases/consumer-mwc-2026-concepts-tablets-laptops/" }
     ]
   },
   {
@@ -604,6 +683,9 @@ const ARTICLES = [
       "1.43 inç AMOLED ekran, safir-kristal cam ile korunuyor; kasa ise titanyum alaşımdan üretilmiş. EKG ölçümü de cihazın öne çıkan özellikleri arasında.",
       "Saat; uyku sırasında solunum hareketi, yürüyüş (gait) analizi ve uzun vadeli sağlık eğilimleri gibi yeni metrikleri destekliyor.",
       "Bu tür gelişmiş sensörler giderek yaygınlaşıyor; ancak unutmayın: bu ölçümler bir hekimin teşhisinin yerini tutmaz."
+    ],
+    sources: [
+      { name: "TechAdvisor — Asus Pad ve VivoWatch 6 Plus", url: "https://www.techadvisor.com/article/3155480/asus-pad-and-vivowatch-6-plus-announced.html" }
     ]
   },
   {
@@ -653,6 +735,9 @@ const ARTICLES = [
       "Bu değişiklik, platformu daha çok sosyal medya tarzı bir kimlik sistemine yaklaştırıyor. Artık numaranızı paylaşmadan iletişim kurmak mümkün olacak.",
       "Gizlilik açısından önemli bir adım: telefon numaranızın tanımadığınız kişilere ifşa olma riski azalıyor.",
       "Ayrıca AB'deki kullanıcılar için Meta AI ile durum güncellemelerinde ve sohbetlerde görsel üretme özelliği de devrede."
+    ],
+    sources: [
+      { name: "SocialBee — Sosyal medya haberleri", url: "https://socialbee.com/blog/social-media-news/" }
     ]
   },
   {
@@ -672,6 +757,9 @@ const ARTICLES = [
       "AI Alive, TikTok Stories içinde statik fotoğrafları kısa videolara dönüştürüyor. Böylece tek bir kareden hareketli içerik üretmek mümkün hale geliyor.",
       "İkinci yenilik 'Add to Music App'; uygulamada keşfettiğiniz şarkıları, tercih ettiğiniz müzik akış servisine doğrudan kaydetmenizi sağlıyor.",
       "Reklam verenler de artık TikTok kullanıcılarına WhatsApp ve Messenger gibi diğer mesajlaşma uygulamaları üzerinden ulaşabilecek."
+    ],
+    sources: [
+      { name: "HeyOrca — TikTok güncellemeleri", url: "https://www.heyorca.com/blog/tiktok-social-news" }
     ]
   },
   {
@@ -711,7 +799,7 @@ const ARTICLES = [
     category: "giyilebilir",
     title: "Yapay Zeka Gözlük Savaşları Başladı: Google, Warby Parker ve Meta Sahada",
     summary: "Google I/O 2026'da Gemini destekli akıllı gözlükler tanıtıldı; Meta ise dört yeni model hazırlıyor. Ekransız, sesle çalışan asistan dönemi geliyor.",
-    image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=900&q=80",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/A_Google_Glass_wearer.jpg/1280px-A_Google_Glass_wearer.jpg",
     author: "Editör",
     date: "2026-06-02",
     readTime: 6,
@@ -723,6 +811,10 @@ const ARTICLES = [
       "Gözlükler iki versiyonda geliyor: sesli yardım sunan ses odaklı modeller ve bilgileri görüş alanınızda gösteren ekranlı modeller. Önünüzdeki bir tabelayı Gemini'ye sorup sesli yanıt alabiliyor, hatta sesle fotoğraf çekebiliyorsunuz.",
       "Meta cephesinde ise en az dört yeni akıllı gözlük modeli yolda; 'Modelo' Haziran'da, diğerleri sonbaharda bekleniyor. Meta ayrıca konuşmaları kaydedip özetleyen yapay zeka destekli bir kolye üzerinde çalışıyor.",
       "Ekransız, sesle çalışan yapay zeka asistanları, telefonun yerini kısmen alabilecek yeni bir giyilebilir kategori yaratıyor. Gizlilik tartışmaları ise yeni başlıyor."
+    ],
+    sources: [
+      { name: "The Gadgeteer — Google/Warby Parker akıllı gözlük", url: "https://the-gadgeteer.com/2026/05/26/google-warby-parker-intelligent-wear-samsung-glasses/" },
+      { name: "Road to VR — Meta akıllı gözlük planları", url: "https://roadtovr.com/meta-meta-smart-glasses-report-ai-pendant/" }
     ]
   },
   {
@@ -730,7 +822,7 @@ const ARTICLES = [
     category: "yapay-zeka",
     title: "Humanoid Robotlar Henüz Hazır Değil: CES 2026'nın Dürüst Tablosu",
     summary: "Ev işlerini yapan robot hayali güzel; ama gerçek şu an çok yavaş. CES 2026'da robotlar etkileyiciden çok 'umut vadeden' kategorisindeydi.",
-    image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=900&q=80",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Valkyrie-robot-3.jpg/1280px-Valkyrie-robot-3.jpg",
     author: "Editör",
     date: "2026-06-01",
     readTime: 5,
@@ -742,6 +834,9 @@ const ARTICLES = [
       "Bulaşık yıkayan veya çamaşır katlayan bir ev robotu beklentiniz varsa, bunun hâlâ yıllar uzakta olduğunu söylemek gerek. Fuardaki gösterimlerin çoğu kontrollü ortamlarda yapıldı.",
       "Yine de umut vadeden örnekler vardı: CLOiD adlı robot, yapay zeka ve görüş tabanlı teknolojiyle yemek pişirme ve çamaşır gibi işleri deniyor; iki kollu gövdesi ve tekerlekli tabanıyla otonom hareket edebiliyor.",
       "Kısa vadede robotlar evimize girmese de, sanayi ve depo gibi kontrollü alanlarda hızla yaygınlaşıyorlar. Asıl devrim, yapay zekanın bu robotları gerçek zamanlı 'düşündürmesiyle' gelecek."
+    ],
+    sources: [
+      { name: "Electronics360 — CES 2026 robotlar", url: "https://electronics360.globalspec.com/article/23253/ces-2026-where-the-robots-are-slow-the-ai-is-fake-and-the-smart-glasses-impress" }
     ]
   },
   {
@@ -777,6 +872,9 @@ const ARTICLES = [
       ] },
       { quote: "Doğru telefon, en pahalı olan değil; ihtiyaçlarınızı en uzun süre karşılayacak olandır." },
       "Son olarak, acele etmeyin. Yeni modeller çıktıkça bir önceki neslin fiyatı düşer ve çoğu zaman en akıllı alışveriş, bir önceki yılın amiral gemisini almaktır. İhtiyacınızı netleştirip bu kontrol listesini kullanırsanız, pişman olmayacağınız bir seçim yaparsınız."
+    ],
+    sources: [
+      { name: "Wikipedia — Akıllı telefon", url: "https://tr.wikipedia.org/wiki/Ak%C4%B1ll%C4%B1_telefon" }
     ]
   },
   {
@@ -812,6 +910,9 @@ const ARTICLES = [
       ] },
       { quote: "İyi bir güç kaynağı ve yeterli soğutma, en az ekran kartı kadar önemlidir — çünkü performansı sürdürülebilir kılan onlardır." },
       "İlk kez topluyorsanız acele etmeyin, her adımı bir videoyla eşleştirin. Birkaç saatlik bir uğraşın sonunda, kendi ellerinizle kurduğunuz ve istediğiniz an yükseltebileceğiniz bir oyun makinesine sahip olacaksınız."
+    ],
+    sources: [
+      { name: "Wikipedia — Kişisel bilgisayar", url: "https://tr.wikipedia.org/wiki/Ki%C5%9Fisel_bilgisayar" }
     ]
   },
   {
@@ -837,6 +938,9 @@ const ARTICLES = [
       "Konsol kalitesindeki oyunlar artık telefonlarda ve bulut üzerinden de oynanabiliyor. Bu yıl pek çok büyük yapım, aynı anda birden fazla platformda çıkış yaparak 'nerede istersen orada oyna' anlayışını güçlendiriyor.",
       { quote: "Bu yılın en büyük kazananı, hangi cihazda olursa olsun oyununa kaldığı yerden devam edebilen oyuncular olacak." },
       "Hangi türü seviyor olursanız olun, 2026'nın çıkış takvimi oldukça dolu. Cüzdanınızı korumak için indirimleri beklemek ve oyunları çıkıştan sonra birkaç güncelleme geçene kadar izlemek her zaman akıllıca bir strateji."
+    ],
+    sources: [
+      { name: "Wikipedia — 2026 in video games", url: "https://en.wikipedia.org/wiki/2026_in_video_games" }
     ]
   },
   {
@@ -871,6 +975,9 @@ const ARTICLES = [
       ] },
       { quote: "Yapay zeka bir sihir değil, güçlü bir araçtır. Değeri, onu ne kadar bilinçli kullandığınızla ortaya çıkar." },
       "Özetle, yapay zekayı hayatınıza katmak için teknoloji uzmanı olmanıza gerek yok. Küçük günlük işlerden başlayıp güvendiğiniz araçlarla ilerlerseniz, kısa sürede ne kadar çok zaman kazandığınızı fark edeceksiniz."
+    ],
+    sources: [
+      { name: "Wikipedia — Yapay zekâ", url: "https://tr.wikipedia.org/wiki/Yapay_zek%C3%A2" }
     ]
   }
 ];
